@@ -1,0 +1,4 @@
+<map id="isDeadEnd" name="isDeadEnd">
+<area shape="rect" id="node1" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="144,5,205,32"/>
+</map>

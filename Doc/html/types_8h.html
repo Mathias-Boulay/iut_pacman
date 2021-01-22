@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentation Pacman M1103: Référence du fichier Nos_Fichiers/source/types.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Documentation Pacman M1103
+   &#160;<span id="projectnumber">1.01</span>
+   </div>
+   <div id="projectbrief">Documentation à propos de notre pacman réalisé dans le cadre du module m1103</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f4a5ed3d1e5fd8b4194045c6d287b1d7.html">Nos_Fichiers</a></li><li class="navelem"><a class="el" href="dir_82af91f236c8293dc7e47709fbe080e9.html">source</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Définitions de type</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier types.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Un ensemble de types facilitant la création du jeu.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de types.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="types_8h__incl.png" border="0" usemap="#_nos___fichiers_2source_2types_8h" alt=""/></div>
+<map name="_nos___fichiers_2source_2types_8h" id="_nos___fichiers_2source_2types_8h">
+<area shape="rect" title="Un ensemble de types facilitant la création du jeu." alt="" coords="66,5,217,47"/>
+<area shape="rect" title=" " alt="" coords="5,95,85,121"/>
+<area shape="rect" title=" " alt="" coords="110,95,173,121"/>
+<area shape="rect" title=" " alt="" coords="197,95,248,121"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
+<div class="dyncontent">
+<div class="center"><img src="types_8h__dep__incl.png" border="0" usemap="#_nos___fichiers_2source_2types_8hdep" alt=""/></div>
+<map name="_nos___fichiers_2source_2types_8hdep" id="_nos___fichiers_2source_2types_8hdep">
+<area shape="rect" title="Un ensemble de types facilitant la création du jeu." alt="" coords="380,5,531,47"/>
+<area shape="rect" href="_menu_utils_8h.html" title="A set of function to ease our work with storing and retrieving settings." alt="" coords="267,184,417,225"/>
+<area shape="rect" href="_game_8cpp.html" title=" " alt="" coords="380,273,531,315"/>
+<area shape="rect" href="_setting_utils_8h.html" title="A set of function to ease our work with storing and retrieving settings." alt="" coords="153,95,304,136"/>
+<area shape="rect" href="_setting_utils_8cpp.html" title=" " alt="" coords="40,184,191,225"/>
+<area shape="rect" href="_display_utils_8h.html" title="Un ensemble de fonction permettant de simplifier notre travail avec la console." alt="" coords="380,95,531,136"/>
+<area shape="rect" href="_display_utils_8cpp.html" title=" " alt="" coords="493,184,644,225"/>
+<area shape="rect" href="_game_8h.html" title="Le coeur du jeu." alt="" coords="895,184,1045,225"/>
+<area shape="rect" href="_game_utils_8h.html" title="A set of function which defines basic game systems." alt="" coords="607,95,757,136"/>
+<area shape="rect" href="_game_utils_8cpp.html" title=" " alt="" coords="720,184,871,225"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="273,281,355,307"/>
+<area shape="rect" href="_menu_utils_8cpp.html" title=" " alt="" coords="724,273,875,315"/>
+</map>
+</div>
+</div>
+<p><a href="types_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pacman.html">Pacman</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct contenant des éléments pour pacman.  <a href="struct_pacman.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ghost.html">Ghost</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct contenant des éléments pour les fantômes.  <a href="struct_ghost.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_settings.html">Settings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct contenant les paramètres utilisateur.  <a href="struct_settings.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_authorized_key.html">AuthorizedKey</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste contenant les clés acceptées.  <a href="struct_authorized_key.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a50d7a37d746ed9699002e288b6dff8c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a>&#160;&#160;&#160;&quot;\033[1m&quot;</td></tr>
+<tr class="separator:a50d7a37d746ed9699002e288b6dff8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523653b137c1298fa4014e26488bee76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a>&#160;&#160;&#160;&quot;\033[34m&quot;</td></tr>
+<tr class="separator:a523653b137c1298fa4014e26488bee76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038ea114ff75076e05108db5158bef66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>&#160;&#160;&#160;&quot;\033[0m&quot;</td></tr>
+<tr class="separator:a038ea114ff75076e05108db5158bef66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea19743fab227a2e9877bc45c5d52f40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#aea19743fab227a2e9877bc45c5d52f40">WHITE_TEXT</a>&#160;&#160;&#160;&quot;\033[97m&quot;</td></tr>
+<tr class="separator:aea19743fab227a2e9877bc45c5d52f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6b49286f191080eef7f1891a32b6596"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#ac6b49286f191080eef7f1891a32b6596">RED_TEXT</a>&#160;&#160;&#160;&quot;\033[31m&quot;</td></tr>
+<tr class="separator:ac6b49286f191080eef7f1891a32b6596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaad9cb092d673eb55addd81bdc69f532"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#aaad9cb092d673eb55addd81bdc69f532">GREEN_TEXT</a>&#160;&#160;&#160;&quot;\033[32m&quot;</td></tr>
+<tr class="separator:aaad9cb092d673eb55addd81bdc69f532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Définitions de type</h2></td></tr>
+<tr class="memitem:a297ea759e503bd8fd7c5f2a7f21d6ff9"><td class="memItemLeft" align="right" valign="top">typedef wchar_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a></td></tr>
+<tr class="memdesc:a297ea759e503bd8fd7c5f2a7f21d6ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">MapCase : alias à une case d'une GameMap.  <a href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a297ea759e503bd8fd7c5f2a7f21d6ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f476282ef85910e54e48125113e444d"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a5f476282ef85910e54e48125113e444d">MapLine</a></td></tr>
+<tr class="memdesc:a5f476282ef85910e54e48125113e444d"><td class="mdescLeft">&#160;</td><td class="mdescRight">MapLine : alias à la ligne d'une GameMap.  <a href="types_8h.html#a5f476282ef85910e54e48125113e444d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5f476282ef85910e54e48125113e444d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b9f47c37fdbb5aa01f951c65a75cd0"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="types_8h.html#a5f476282ef85910e54e48125113e444d">MapLine</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a></td></tr>
+<tr class="memdesc:a20b9f47c37fdbb5aa01f951c65a75cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameMap : alias pour une matrice de MapCase.  <a href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a20b9f47c37fdbb5aa01f951c65a75cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8bdd9cbdadacfa59f5d2bf4df5bebd7"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a></td></tr>
+<tr class="memdesc:aa8bdd9cbdadacfa59f5d2bf4df5bebd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position : alias à une position dans une GameMap (X,Y)  <a href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa8bdd9cbdadacfa59f5d2bf4df5bebd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85bf93c1d020fb6d76a1585fe614b3a"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a></td></tr>
+<tr class="separator:ab85bf93c1d020fb6d76a1585fe614b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d35f67a5c5fe9668f4b812761b1e729"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="struct_ghost.html">Ghost</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a></td></tr>
+<tr class="memdesc:a9d35f67a5c5fe9668f4b812761b1e729"><td class="mdescLeft">&#160;</td><td class="mdescRight">alias pour plusieurs fantômes  <a href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9d35f67a5c5fe9668f4b812761b1e729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a4f68a7f2c76ff42d8ccdac086988068b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; wchar_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a4f68a7f2c76ff42d8ccdac086988068b">Walls</a> = {L'╔',L'╗',L'╚',L'╝',L'═',L'║',L'╣',L'╩',L'╦',L'╠',L'╬'}</td></tr>
+<tr class="memdesc:a4f68a7f2c76ff42d8ccdac086988068b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Un tableau des différents murs. Utilisé par la fonction <a class="el" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié">isWall()</a>;.  <a href="types_8h.html#a4f68a7f2c76ff42d8ccdac086988068b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4f68a7f2c76ff42d8ccdac086988068b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f9e094b8179b599a0a37603947e706"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a88f9e094b8179b599a0a37603947e706">PacmanRight</a> = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;⊂&quot; RESET_TEXT</td></tr>
+<tr class="memdesc:a88f9e094b8179b599a0a37603947e706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprite direction droite.  <a href="types_8h.html#a88f9e094b8179b599a0a37603947e706">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a88f9e094b8179b599a0a37603947e706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351f8aa1a0d425931777043a3904814c"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a351f8aa1a0d425931777043a3904814c">PacmanLeft</a> = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;⊃&quot; RESET_TEXT</td></tr>
+<tr class="memdesc:a351f8aa1a0d425931777043a3904814c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprite direction gauche.  <a href="types_8h.html#a351f8aa1a0d425931777043a3904814c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a351f8aa1a0d425931777043a3904814c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b50812ed03b355ec88f5adef97a0978"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a0b50812ed03b355ec88f5adef97a0978">PacmanUp</a> = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;∪&quot; RESET_TEXT</td></tr>
+<tr class="memdesc:a0b50812ed03b355ec88f5adef97a0978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprite direction haut.  <a href="types_8h.html#a0b50812ed03b355ec88f5adef97a0978">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0b50812ed03b355ec88f5adef97a0978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3044b68696f5860e07abdee782e068ed"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a3044b68696f5860e07abdee782e068ed">PacmanDown</a> = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;∩&quot; RESET_TEXT</td></tr>
+<tr class="memdesc:a3044b68696f5860e07abdee782e068ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprite direction bas.  <a href="types_8h.html#a3044b68696f5860e07abdee782e068ed">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3044b68696f5860e07abdee782e068ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d35bf9aa0ecc7013cea6810a81a6fb2"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a3d35bf9aa0ecc7013cea6810a81a6fb2">DefaultGhost</a> = <a class="el" href="types_8h.html#aaad9cb092d673eb55addd81bdc69f532">GREEN_TEXT</a> &quot;⋂&quot; RESET_TEXT</td></tr>
+<tr class="memdesc:a3d35bf9aa0ecc7013cea6810a81a6fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprite du fantôme par défaut.  <a href="types_8h.html#a3d35bf9aa0ecc7013cea6810a81a6fb2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3d35bf9aa0ecc7013cea6810a81a6fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceb7fe2ef57e2a41d69b6c665566e605"><td class="memItemLeft" align="right" valign="top">const wchar_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#aceb7fe2ef57e2a41d69b6c665566e605">PacGum</a> = L'•'</td></tr>
+<tr class="memdesc:aceb7fe2ef57e2a41d69b6c665566e605"><td class="mdescLeft">&#160;</td><td class="mdescRight">PacGomme.  <a href="types_8h.html#aceb7fe2ef57e2a41d69b6c665566e605">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aceb7fe2ef57e2a41d69b6c665566e605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3447d4976816f0d3d1cb0cf6713400a"><td class="memItemLeft" align="right" valign="top">const wchar_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#ad3447d4976816f0d3d1cb0cf6713400a">SuperPacGum</a> = L'o'</td></tr>
+<tr class="memdesc:ad3447d4976816f0d3d1cb0cf6713400a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Super PacGomme.  <a href="types_8h.html#ad3447d4976816f0d3d1cb0cf6713400a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad3447d4976816f0d3d1cb0cf6713400a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355dc2f2cc97ef0e58e179a0c744c277"><td class="memItemLeft" align="right" valign="top">const std::map&lt; wchar_t, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a355dc2f2cc97ef0e58e179a0c744c277">RenderedChar</a></td></tr>
+<tr class="memdesc:a355dc2f2cc97ef0e58e179a0c744c277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table de correspondance entre les caractères de la map, et les caractères à afficher.  <a href="types_8h.html#a355dc2f2cc97ef0e58e179a0c744c277">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a355dc2f2cc97ef0e58e179a0c744c277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea1e353d73c1bf34a63f6b361781589"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_authorized_key.html">AuthorizedKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a2ea1e353d73c1bf34a63f6b361781589">AuthorizedKey</a></td></tr>
+<tr class="memdesc:a2ea1e353d73c1bf34a63f6b361781589"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_authorized_key.html" title="Liste contenant les clés acceptées.">AuthorizedKey</a>.  <a href="types_8h.html#a2ea1e353d73c1bf34a63f6b361781589">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2ea1e353d73c1bf34a63f6b361781589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Un ensemble de types facilitant la création du jeu. </p>
+<dl class="section author"><dt>Auteur</dt><dd>BOULAY Mathias, </dd>
+<dd>
+MONBEIG Maxime </dd>
+<dd>
+PINEL Anthony </dd>
+<dd>
+JUBERT Killian </dd>
+<dd>
+DAURELLE Nicolas </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>15 janvier 2021 </dd></dl>
+
+<p class="definition">Définition dans le fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+</div><h2 class="groupheader">Documentation des macros</h2>
+<a id="a523653b137c1298fa4014e26488bee76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523653b137c1298fa4014e26488bee76">&#9670;&nbsp;</a></span>BLUE_TEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BLUE_TEXT&#160;&#160;&#160;&quot;\033[34m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00021">21</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a50d7a37d746ed9699002e288b6dff8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d7a37d746ed9699002e288b6dff8c4">&#9670;&nbsp;</a></span>BOLD_TEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BOLD_TEXT&#160;&#160;&#160;&quot;\033[1m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00020">20</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aaad9cb092d673eb55addd81bdc69f532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaad9cb092d673eb55addd81bdc69f532">&#9670;&nbsp;</a></span>GREEN_TEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GREEN_TEXT&#160;&#160;&#160;&quot;\033[32m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00025">25</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ac6b49286f191080eef7f1891a32b6596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6b49286f191080eef7f1891a32b6596">&#9670;&nbsp;</a></span>RED_TEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RED_TEXT&#160;&#160;&#160;&quot;\033[31m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00024">24</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a038ea114ff75076e05108db5158bef66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a038ea114ff75076e05108db5158bef66">&#9670;&nbsp;</a></span>RESET_TEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RESET_TEXT&#160;&#160;&#160;&quot;\033[0m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00022">22</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aea19743fab227a2e9877bc45c5d52f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea19743fab227a2e9877bc45c5d52f40">&#9670;&nbsp;</a></span>WHITE_TEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WHITE_TEXT&#160;&#160;&#160;&quot;\033[97m&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00023">23</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des définitions de type</h2>
+<a id="ab85bf93c1d020fb6d76a1585fe614b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab85bf93c1d020fb6d76a1585fe614b3a">&#9670;&nbsp;</a></span>Direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::pair&lt;int, int&gt; <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00055">55</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a20b9f47c37fdbb5aa01f951c65a75cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20b9f47c37fdbb5aa01f951c65a75cd0">&#9670;&nbsp;</a></span>GameMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="types_8h.html#a5f476282ef85910e54e48125113e444d">MapLine</a> &gt; <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameMap : alias pour une matrice de MapCase. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00043">43</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a9d35f67a5c5fe9668f4b812761b1e729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d35f67a5c5fe9668f4b812761b1e729">&#9670;&nbsp;</a></span>Ghosts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="struct_ghost.html">Ghost</a> &gt; <a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>alias pour plusieurs fantômes </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00121">121</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a297ea759e503bd8fd7c5f2a7f21d6ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a297ea759e503bd8fd7c5f2a7f21d6ff9">&#9670;&nbsp;</a></span>MapCase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wchar_t <a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MapCase : alias à une case d'une GameMap. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00031">31</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a5f476282ef85910e54e48125113e444d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f476282ef85910e54e48125113e444d">&#9670;&nbsp;</a></span>MapLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a> &gt; <a class="el" href="types_8h.html#a5f476282ef85910e54e48125113e444d">MapLine</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>MapLine : alias à la ligne d'une GameMap. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00037">37</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aa8bdd9cbdadacfa59f5d2bf4df5bebd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">&#9670;&nbsp;</a></span>Position</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; int, int &gt; <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Position : alias à une position dans une GameMap (X,Y) </p>
+<p>Direction : alias pour une direction au sein d'une GameMap. Utilisé en combinaison avec Position. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00049">49</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="a2ea1e353d73c1bf34a63f6b361781589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea1e353d73c1bf34a63f6b361781589">&#9670;&nbsp;</a></span>AuthorizedKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_authorized_key.html">AuthorizedKey</a> <a class="el" href="struct_authorized_key.html">AuthorizedKey</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="struct_authorized_key.html" title="Liste contenant les clés acceptées.">AuthorizedKey</a>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00187">187</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a3d35bf9aa0ecc7013cea6810a81a6fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d35bf9aa0ecc7013cea6810a81a6fb2">&#9670;&nbsp;</a></span>DefaultGhost</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string DefaultGhost = <a class="el" href="types_8h.html#aaad9cb092d673eb55addd81bdc69f532">GREEN_TEXT</a> &quot;⋂&quot; RESET_TEXT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprite du fantôme par défaut. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00103">103</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aceb7fe2ef57e2a41d69b6c665566e605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb7fe2ef57e2a41d69b6c665566e605">&#9670;&nbsp;</a></span>PacGum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wchar_t PacGum = L'•'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PacGomme. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00126">126</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a3044b68696f5860e07abdee782e068ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3044b68696f5860e07abdee782e068ed">&#9670;&nbsp;</a></span>PacmanDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string PacmanDown = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;∩&quot; RESET_TEXT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprite direction bas. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00080">80</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a351f8aa1a0d425931777043a3904814c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a351f8aa1a0d425931777043a3904814c">&#9670;&nbsp;</a></span>PacmanLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string PacmanLeft = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;⊃&quot; RESET_TEXT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprite direction gauche. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00070">70</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a88f9e094b8179b599a0a37603947e706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88f9e094b8179b599a0a37603947e706">&#9670;&nbsp;</a></span>PacmanRight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string PacmanRight = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;⊂&quot; RESET_TEXT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprite direction droite. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00065">65</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a0b50812ed03b355ec88f5adef97a0978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b50812ed03b355ec88f5adef97a0978">&#9670;&nbsp;</a></span>PacmanUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string PacmanUp = <a class="el" href="types_8h.html#a50d7a37d746ed9699002e288b6dff8c4">BOLD_TEXT</a> &quot;∪&quot; RESET_TEXT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprite direction haut. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00075">75</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a355dc2f2cc97ef0e58e179a0c744c277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a355dc2f2cc97ef0e58e179a0c744c277">&#9670;&nbsp;</a></span>RenderedChar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt;wchar_t, std::string&gt; RenderedChar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Valeur initiale :</b><div class="fragment"><div class="line">{</div>
+<div class="line">    {L<span class="stringliteral">&#39;╔&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╔&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╗&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╗&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╚&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╚&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╝&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╝&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;═&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;═&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;║&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;║&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╣&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╣&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╩&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╩&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╦&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╦&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╠&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╠&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;╬&#39;</span>,<a class="code" href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a> <span class="stringliteral">&quot;╬&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;•&#39;</span>,<a class="code" href="types_8h.html#aea19743fab227a2e9877bc45c5d52f40">WHITE_TEXT</a> <span class="stringliteral">&quot;•&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="charliteral">&#39; &#39;</span>,<span class="stringliteral">&quot; &quot;</span>},</div>
+<div class="line">    {L<span class="charliteral">&#39;x&#39;</span>,<a class="code" href="types_8h.html#ac6b49286f191080eef7f1891a32b6596">RED_TEXT</a> <span class="stringliteral">&quot;x&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>},</div>
+<div class="line">    {L<span class="stringliteral">&#39;≠&#39;</span>,<span class="stringliteral">&quot;≠&quot;</span>},</div>
+<div class="line">    {L<span class="charliteral">&#39;o&#39;</span>,<a class="code" href="types_8h.html#aea19743fab227a2e9877bc45c5d52f40">WHITE_TEXT</a> <span class="stringliteral">&quot;o&quot;</span> <a class="code" href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a>}</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+<p>Table de correspondance entre les caractères de la map, et les caractères à afficher. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00138">138</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3447d4976816f0d3d1cb0cf6713400a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3447d4976816f0d3d1cb0cf6713400a">&#9670;&nbsp;</a></span>SuperPacGum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wchar_t SuperPacGum = L'o'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Super PacGomme. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00131">131</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a4f68a7f2c76ff42d8ccdac086988068b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f68a7f2c76ff42d8ccdac086988068b">&#9670;&nbsp;</a></span>Walls</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;wchar_t&gt; Walls = {L'╔',L'╗',L'╚',L'╝',L'═',L'║',L'╣',L'╩',L'╦',L'╠',L'╬'}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Un tableau des différents murs. Utilisé par la fonction <a class="el" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié">isWall()</a>;. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="types_8h_source.html#l00060">60</a> du fichier <a class="el" href="types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<div class="ttc" id="atypes_8h_html_a038ea114ff75076e05108db5158bef66"><div class="ttname"><a href="types_8h.html#a038ea114ff75076e05108db5158bef66">RESET_TEXT</a></div><div class="ttdeci">#define RESET_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00022">types.h:22</a></div></div>
+<div class="ttc" id="atypes_8h_html_a523653b137c1298fa4014e26488bee76"><div class="ttname"><a href="types_8h.html#a523653b137c1298fa4014e26488bee76">BLUE_TEXT</a></div><div class="ttdeci">#define BLUE_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00021">types.h:21</a></div></div>
+<div class="ttc" id="atypes_8h_html_ac6b49286f191080eef7f1891a32b6596"><div class="ttname"><a href="types_8h.html#ac6b49286f191080eef7f1891a32b6596">RED_TEXT</a></div><div class="ttdeci">#define RED_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00024">types.h:24</a></div></div>
+<div class="ttc" id="atypes_8h_html_aea19743fab227a2e9877bc45c5d52f40"><div class="ttname"><a href="types_8h.html#aea19743fab227a2e9877bc45c5d52f40">WHITE_TEXT</a></div><div class="ttdeci">#define WHITE_TEXT</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00023">types.h:23</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

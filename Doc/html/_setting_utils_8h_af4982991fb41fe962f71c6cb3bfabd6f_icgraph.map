@@ -1,0 +1,15 @@
+<map id="LoadSettings" name="LoadSettings">
+<area shape="rect" id="node1" title="Charge les paramètres utilisateur." alt="" coords="840,208,947,235"/>
+<area shape="rect" id="node2" href="$_menu_utils_8h.html#aa058987917cb72df98b7a4edb64a4932" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="627,5,789,32"/>
+<area shape="rect" id="node6" href="$_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="469,208,576,235"/>
+<area shape="rect" id="node7" href="$_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="291,233,377,260"/>
+<area shape="rect" id="node8" href="$_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="469,259,576,285"/>
+<area shape="rect" id="node9" href="$_menu_utils_8h.html#ab506d610becfdf522847c114fc5cb558" title="Affiche les meilleurs scores." alt="" coords="265,296,403,323"/>
+<area shape="rect" id="node10" href="$_menu_utils_8h.html#a9ee58b7523876d14d08f7250c55a7e66" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="624,56,792,83"/>
+<area shape="rect" id="node11" href="$_menu_utils_8h.html#ac7c2635834f8bea510b331befe7f88b5" title="Permet à l&#39;utilisateur de séléctionner son mode de jeu favori." alt="" coords="247,372,421,399"/>
+<area shape="rect" id="node12" href="$_menu_utils_8h.html#a22afacf87fdded9606a0810e7cceeb39" title="Démonte le moral du joueur avec un message &quot;sympa&quot;. Stocke le score si il est bon." alt="" coords="655,259,761,285"/>
+<area shape="rect" id="node13" href="$_menu_utils_8h.html#afb6c01275d43e2c317f10518ee458edf" title=" " alt="" coords="654,208,762,235"/>
+<area shape="rect" id="node3" href="$_menu_utils_8h.html#afd708bb8c83ed223ced37d695b4cc400" title="Affiche les paramètres et réagit en fonction de ce qui est demandé par l&#39;utilisateur." alt="" coords="471,56,575,83"/>
+<area shape="rect" id="node4" href="$_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,271,199,297"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,271,60,297"/>
+</map>

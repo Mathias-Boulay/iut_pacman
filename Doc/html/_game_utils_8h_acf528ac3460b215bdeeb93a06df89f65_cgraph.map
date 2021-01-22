@@ -1,0 +1,5 @@
+<map id="GoOpposite" name="GoOpposite">
+<area shape="rect" id="node1" title="Renvoie la direction opposée à pacman." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="152,5,239,32"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="165,56,226,83"/>
+</map>

@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentation Pacman M1103: Référence du fichier Nos_Fichiers/source/Game.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Documentation Pacman M1103
+   &#160;<span id="projectnumber">1.01</span>
+   </div>
+   <div id="projectbrief">Documentation à propos de notre pacman réalisé dans le cadre du module m1103</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f4a5ed3d1e5fd8b4194045c6d287b1d7.html">Nos_Fichiers</a></li><li class="navelem"><a class="el" href="dir_82af91f236c8293dc7e47709fbe080e9.html">source</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier Game.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_game_8h_source.html">Game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_display_utils_8h_source.html">DisplayUtils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_input_utils_8h_source.html">InputUtils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_game_utils_8h_source.html">GameUtils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_setting_utils_8h_source.html">SettingUtils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_menu_utils_8h_source.html">MenuUtils.h</a>&quot;</code><br />
+<code>#include &lt;experimental/random&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de Game.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_8cpp__incl.png" border="0" usemap="#_nos___fichiers_2source_2_game_8cpp" alt=""/></div>
+<map name="_nos___fichiers_2source_2_game_8cpp" id="_nos___fichiers_2source_2_game_8cpp">
+<area shape="rect" title=" " alt="" coords="311,5,461,47"/>
+<area shape="rect" href="types_8h.html" title="Un ensemble de types facilitant la création du jeu." alt="" coords="117,244,188,271"/>
+<area shape="rect" href="_game_8h.html" title="Le coeur du jeu." alt="" coords="195,95,268,121"/>
+<area shape="rect" href="_display_utils_8h.html" title="Un ensemble de fonction permettant de simplifier notre travail avec la console." alt="" coords="5,169,119,196"/>
+<area shape="rect" href="_input_utils_8h.html" title="Ensemble de fonctions permettant de simplifier la capture d&#39;entrées au clavier." alt="" coords="899,169,996,196"/>
+<area shape="rect" href="_game_utils_8h.html" title="A set of function which defines basic game systems." alt="" coords="433,169,536,196"/>
+<area shape="rect" href="_setting_utils_8h.html" title="A set of function to ease our work with storing and retrieving settings." alt="" coords="296,169,407,196"/>
+<area shape="rect" href="_menu_utils_8h.html" title="A set of function to ease our work with storing and retrieving settings." alt="" coords="292,95,392,121"/>
+<area shape="rect" title=" " alt="" coords="569,95,731,121"/>
+<area shape="rect" title=" " alt="" coords="249,319,329,345"/>
+<area shape="rect" title=" " alt="" coords="573,319,636,345"/>
+<area shape="rect" title=" " alt="" coords="127,319,178,345"/>
+<area shape="rect" title=" " alt="" coords="863,244,938,271"/>
+<area shape="rect" title=" " alt="" coords="962,244,1029,271"/>
+<area shape="rect" title=" " alt="" coords="1053,244,1124,271"/>
+<area shape="rect" title=" " alt="" coords="1148,244,1232,271"/>
+<area shape="rect" title=" " alt="" coords="1256,244,1321,271"/>
+<area shape="rect" title=" " alt="" coords="615,244,690,271"/>
+<area shape="rect" title=" " alt="" coords="373,244,447,271"/>
+<area shape="rect" title=" " alt="" coords="715,244,788,271"/>
+<area shape="rect" title=" " alt="" coords="523,244,591,271"/>
+<area shape="rect" title=" " alt="" coords="213,244,298,271"/>
+</map>
+</div>
+</div>
+<p><a href="_game_8cpp_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a0a0a0a362406e59aa69614273b43b78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_8cpp.html#a0a0a0a362406e59aa69614273b43b78c">ClassicGame</a> ()</td></tr>
+<tr class="memdesc:a0a0a0a362406e59aa69614273b43b78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joue une partie classique de pacman.  <a href="_game_8cpp.html#a0a0a0a362406e59aa69614273b43b78c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0a0a0a362406e59aa69614273b43b78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5760e8c1ab07704e48694e8a73fd1b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_8cpp.html#ae5760e8c1ab07704e48694e8a73fd1b9">InfiniteGame</a> ()</td></tr>
+<tr class="separator:ae5760e8c1ab07704e48694e8a73fd1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a0a0a0a362406e59aa69614273b43b78c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a0a0a362406e59aa69614273b43b78c">&#9670;&nbsp;</a></span>ClassicGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClassicGame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Joue une partie classique de pacman. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_8cpp_source.html#l00012">12</a> du fichier <a class="el" href="_game_8cpp_source.html">Game.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_cgraph.png" border="0" usemap="#_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_cgraph" alt=""/></div>
+<map name="_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_cgraph" id="_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_cgraph">
+<area shape="rect" title="Joue une partie classique de pacman." alt="" coords="5,521,112,548"/>
+<area shape="rect" href="_display_utils_8cpp.html#add3f9bdeb1b61704feeddfd22dcaefab" title="Nettoie l&#39;écran pour qu&#39;il n&#39;y ai plus rien sur l&#39;écran." alt="" coords="443,15,548,41"/>
+<area shape="rect" href="_game_utils_8cpp.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="228,369,291,396"/>
+<area shape="rect" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="466,471,525,497"/>
+<area shape="rect" href="_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6" title="vérifie si les deux positions sont identiques" alt="" coords="436,673,555,700"/>
+<area shape="rect" href="_display_utils_8cpp.html#a9b49deafbe8e28648219c632451b3f42" title="Affiche le terrain utilisé. Gère aussi les couleurs via une table de correspondance." alt="" coords="190,724,329,751"/>
+<area shape="rect" href="_display_utils_8cpp.html#ab6e53ea0ac30cc3e7c614ca6b5180e9e" title="Affiche le score, le highscore ainsi que les vies restantes." alt="" coords="183,775,336,801"/>
+<area shape="rect" href="_game_utils_8cpp.html#af853d4f51a1896e41ee4851f0cfb9bde" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="238,673,281,700"/>
+<area shape="rect" href="_game_utils_8cpp.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="225,471,293,497"/>
+<area shape="rect" href="_game_utils_8cpp.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="215,521,304,548"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1" title=" " alt="" coords="199,825,319,852"/>
+<area shape="rect" href="_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="442,65,549,92"/>
+<area shape="rect" href="_game_utils_8cpp.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="198,572,321,599"/>
+<area shape="rect" href="_input_utils_8cpp.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="160,901,359,928"/>
+<area shape="rect" href="_menu_utils_8cpp.html#a93bbd4ccde4a4e33b705ecaddcc0b0e4" title="Démonte le moral du joueur avec un message &quot;sympa&quot;. Stocke le score si il est bon." alt="" coords="206,116,313,143"/>
+<area shape="rect" href="_menu_utils_8cpp.html#acfbee7b165b4dfefb5aea179be1cc6eb" title=" " alt="" coords="205,167,313,193"/>
+<area shape="rect" href="_game_utils_8cpp.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="446,268,545,295"/>
+<area shape="rect" href="_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="666,217,753,244"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="835,420,896,447"/>
+<area shape="rect" href="_game_utils_8cpp.html#a2cc1da30c3bc332e1a495b9ae31fdd67" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="664,369,755,396"/>
+<area shape="rect" href="_game_utils_8cpp.html#ace912809ad5379beac0bf64e4d011f26" title="Renvoie si les entitées sont à moins de la distance spécifié l&#39;un de l&#39;autre." alt="" coords="463,420,527,447"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="681,471,737,497"/>
+<area shape="rect" href="_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079" title="Récupère le contenu d&#39;un fichier et le stock dans un wstring (pour la gestion des caractères unicodes..." alt="" coords="458,749,533,776"/>
+<area shape="rect" href="_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d" title="Vide la GameMap." alt="" coords="407,800,584,827"/>
+<area shape="rect" href="_game_utils_8cpp.html#ac7bfeebd17eb9fcfdba3552cf752d550" title=" " alt="" coords="443,851,547,877"/>
+<area shape="rect" href="_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="632,65,787,92"/>
+<area shape="rect" href="_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f" title="Retourne un entier prenant les valeurs &#45;1;0;1 en fonction du signe de l&#39;argument." alt="" coords="471,623,520,649"/>
+<area shape="rect" href="_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="649,927,769,953"/>
+<area shape="rect" href="_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="443,952,547,979"/>
+<area shape="rect" href="_menu_utils_8cpp.html#a024413c0eab737bb237131c17b94f351" title="Affiche le logo pacman." alt="" coords="411,116,580,143"/>
+<area shape="rect" href="_setting_utils_8cpp.html#aa1eedf1ecfdc00e61b4d7c5e1bae1c7f" title="Stocke le score si il est assez bon." alt="" coords="433,167,558,193"/>
+<area shape="rect" href="_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="653,167,765,193"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_icgraph.png" border="0" usemap="#_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_icgraph" alt=""/></div>
+<map name="_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_icgraph" id="_game_8cpp_a0a0a0a362406e59aa69614273b43b78c_icgraph">
+<area shape="rect" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,5,333,32"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,5,199,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae5760e8c1ab07704e48694e8a73fd1b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5760e8c1ab07704e48694e8a73fd1b9">&#9670;&nbsp;</a></span>InfiniteGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InfiniteGame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_8cpp_source.html#l00161">161</a> du fichier <a class="el" href="_game_8cpp_source.html">Game.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_cgraph.png" border="0" usemap="#_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_cgraph" alt=""/></div>
+<map name="_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_cgraph" id="_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,547,112,574"/>
+<area shape="rect" href="_display_utils_8cpp.html#add3f9bdeb1b61704feeddfd22dcaefab" title="Nettoie l&#39;écran pour qu&#39;il n&#39;y ai plus rien sur l&#39;écran." alt="" coords="443,15,548,42"/>
+<area shape="rect" href="_game_utils_8cpp.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="228,370,291,396"/>
+<area shape="rect" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="466,471,525,498"/>
+<area shape="rect" href="_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6" title="vérifie si les deux positions sont identiques" alt="" coords="436,674,555,700"/>
+<area shape="rect" href="_display_utils_8cpp.html#a9b49deafbe8e28648219c632451b3f42" title="Affiche le terrain utilisé. Gère aussi les couleurs via une table de correspondance." alt="" coords="190,724,329,751"/>
+<area shape="rect" href="_display_utils_8cpp.html#ab6e53ea0ac30cc3e7c614ca6b5180e9e" title="Affiche le score, le highscore ainsi que les vies restantes." alt="" coords="183,775,336,802"/>
+<area shape="rect" href="_game_utils_8cpp.html#af853d4f51a1896e41ee4851f0cfb9bde" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="238,674,281,700"/>
+<area shape="rect" href="_game_utils_8cpp.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="225,471,293,498"/>
+<area shape="rect" href="_game_utils_8cpp.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="215,522,304,548"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1" title=" " alt="" coords="199,826,319,852"/>
+<area shape="rect" href="_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="442,66,549,92"/>
+<area shape="rect" href="_game_utils_8cpp.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="198,572,321,599"/>
+<area shape="rect" href="_input_utils_8cpp.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="160,902,359,928"/>
+<area shape="rect" href="_menu_utils_8cpp.html#a93bbd4ccde4a4e33b705ecaddcc0b0e4" title="Démonte le moral du joueur avec un message &quot;sympa&quot;. Stocke le score si il est bon." alt="" coords="206,116,313,143"/>
+<area shape="rect" href="_game_utils_8cpp.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="446,268,545,295"/>
+<area shape="rect" href="_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="666,218,753,244"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="835,420,896,447"/>
+<area shape="rect" href="_game_utils_8cpp.html#a2cc1da30c3bc332e1a495b9ae31fdd67" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="664,370,755,396"/>
+<area shape="rect" href="_game_utils_8cpp.html#ace912809ad5379beac0bf64e4d011f26" title="Renvoie si les entitées sont à moins de la distance spécifié l&#39;un de l&#39;autre." alt="" coords="463,420,527,447"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="681,471,737,498"/>
+<area shape="rect" href="_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079" title="Récupère le contenu d&#39;un fichier et le stock dans un wstring (pour la gestion des caractères unicodes..." alt="" coords="458,750,533,776"/>
+<area shape="rect" href="_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d" title="Vide la GameMap." alt="" coords="407,800,584,827"/>
+<area shape="rect" href="_game_utils_8cpp.html#ac7bfeebd17eb9fcfdba3552cf752d550" title=" " alt="" coords="443,851,547,878"/>
+<area shape="rect" href="_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="632,66,787,92"/>
+<area shape="rect" href="_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f" title="Retourne un entier prenant les valeurs &#45;1;0;1 en fonction du signe de l&#39;argument." alt="" coords="471,623,520,650"/>
+<area shape="rect" href="_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="649,927,769,954"/>
+<area shape="rect" href="_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="443,952,547,979"/>
+<area shape="rect" href="_menu_utils_8cpp.html#a024413c0eab737bb237131c17b94f351" title="Affiche le logo pacman." alt="" coords="411,116,580,143"/>
+<area shape="rect" href="_setting_utils_8cpp.html#aa1eedf1ecfdc00e61b4d7c5e1bae1c7f" title="Stocke le score si il est assez bon." alt="" coords="433,167,558,194"/>
+<area shape="rect" href="_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="653,167,765,194"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_icgraph.png" border="0" usemap="#_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_icgraph" alt=""/></div>
+<map name="_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_icgraph" id="_game_8cpp_ae5760e8c1ab07704e48694e8a73fd1b9_icgraph">
+<area shape="rect" title=" " alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,5,333,32"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,5,199,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

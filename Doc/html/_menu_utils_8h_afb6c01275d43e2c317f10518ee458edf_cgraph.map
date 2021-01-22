@@ -1,0 +1,9 @@
+<map id="YouWonMenu" name="YouWonMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,113,108"/>
+<area shape="rect" id="node2" href="$_display_utils_8cpp.html#add3f9bdeb1b61704feeddfd22dcaefab" title="Nettoie l&#39;écran pour qu&#39;il n&#39;y ai plus rien sur l&#39;écran." alt="" coords="193,5,299,32"/>
+<area shape="rect" id="node3" href="$_menu_utils_8cpp.html#a024413c0eab737bb237131c17b94f351" title="Affiche le logo pacman." alt="" coords="161,56,331,83"/>
+<area shape="rect" id="node4" href="$_setting_utils_8cpp.html#aa1eedf1ecfdc00e61b4d7c5e1bae1c7f" title="Stocke le score si il est assez bon." alt="" coords="183,107,309,133"/>
+<area shape="rect" id="node6" href="$_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="193,157,299,184"/>
+<area shape="rect" id="node5" href="$_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="400,107,512,133"/>
+<area shape="rect" id="node7" href="$_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="379,157,533,184"/>
+</map>

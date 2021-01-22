@@ -1,0 +1,33 @@
+<map id="InfiniteGame" name="InfiniteGame">
+<area shape="rect" id="node1" title=" " alt="" coords="5,547,112,574"/>
+<area shape="rect" id="node2" href="$_display_utils_8cpp.html#add3f9bdeb1b61704feeddfd22dcaefab" title="Nettoie l&#39;écran pour qu&#39;il n&#39;y ai plus rien sur l&#39;écran." alt="" coords="443,15,548,42"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="228,370,291,396"/>
+<area shape="rect" id="node9" href="$_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="466,471,525,498"/>
+<area shape="rect" id="node11" href="$_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6" title="vérifie si les deux positions sont identiques" alt="" coords="436,674,555,700"/>
+<area shape="rect" id="node12" href="$_display_utils_8cpp.html#a9b49deafbe8e28648219c632451b3f42" title="Affiche le terrain utilisé. Gère aussi les couleurs via une table de correspondance." alt="" coords="190,724,329,751"/>
+<area shape="rect" id="node13" href="$_display_utils_8cpp.html#ab6e53ea0ac30cc3e7c614ca6b5180e9e" title="Affiche le score, le highscore ainsi que les vies restantes." alt="" coords="183,775,336,802"/>
+<area shape="rect" id="node14" href="$_game_utils_8cpp.html#af853d4f51a1896e41ee4851f0cfb9bde" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="238,674,281,700"/>
+<area shape="rect" id="node15" href="$_game_utils_8cpp.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="225,471,293,498"/>
+<area shape="rect" id="node16" href="$_game_utils_8cpp.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="215,522,304,548"/>
+<area shape="rect" id="node17" href="$_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1" title=" " alt="" coords="199,826,319,852"/>
+<area shape="rect" id="node21" href="$_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="442,66,549,92"/>
+<area shape="rect" id="node23" href="$_game_utils_8cpp.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="198,572,321,599"/>
+<area shape="rect" id="node25" href="$_input_utils_8cpp.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="160,902,359,928"/>
+<area shape="rect" id="node28" href="$_menu_utils_8cpp.html#a93bbd4ccde4a4e33b705ecaddcc0b0e4" title="Démonte le moral du joueur avec un message &quot;sympa&quot;. Stocke le score si il est bon." alt="" coords="206,116,313,143"/>
+<area shape="rect" id="node4" href="$_game_utils_8cpp.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="446,268,545,295"/>
+<area shape="rect" id="node5" href="$_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="666,218,753,244"/>
+<area shape="rect" id="node6" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="835,420,896,447"/>
+<area shape="rect" id="node7" href="$_game_utils_8cpp.html#a2cc1da30c3bc332e1a495b9ae31fdd67" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="664,370,755,396"/>
+<area shape="rect" id="node8" href="$_game_utils_8cpp.html#ace912809ad5379beac0bf64e4d011f26" title="Renvoie si les entitées sont à moins de la distance spécifié l&#39;un de l&#39;autre." alt="" coords="463,420,527,447"/>
+<area shape="rect" id="node10" href="$_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="681,471,737,498"/>
+<area shape="rect" id="node18" href="$_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079" title="Récupère le contenu d&#39;un fichier et le stock dans un wstring (pour la gestion des caractères unicodes..." alt="" coords="458,750,533,776"/>
+<area shape="rect" id="node19" href="$_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d" title="Vide la GameMap." alt="" coords="407,800,584,827"/>
+<area shape="rect" id="node20" href="$_game_utils_8cpp.html#ac7bfeebd17eb9fcfdba3552cf752d550" title=" " alt="" coords="443,851,547,878"/>
+<area shape="rect" id="node22" href="$_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="632,66,787,92"/>
+<area shape="rect" id="node24" href="$_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f" title="Retourne un entier prenant les valeurs &#45;1;0;1 en fonction du signe de l&#39;argument." alt="" coords="471,623,520,650"/>
+<area shape="rect" id="node26" href="$_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="649,927,769,954"/>
+<area shape="rect" id="node27" href="$_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="443,952,547,979"/>
+<area shape="rect" id="node29" href="$_menu_utils_8cpp.html#a024413c0eab737bb237131c17b94f351" title="Affiche le logo pacman." alt="" coords="411,116,580,143"/>
+<area shape="rect" id="node30" href="$_setting_utils_8cpp.html#aa1eedf1ecfdc00e61b4d7c5e1bae1c7f" title="Stocke le score si il est assez bon." alt="" coords="433,167,558,194"/>
+<area shape="rect" id="node31" href="$_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="653,167,765,194"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Move" name="Move">
+<area shape="rect" id="node1" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="216,5,277,32"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="112,31,168,57"/>
+</map>

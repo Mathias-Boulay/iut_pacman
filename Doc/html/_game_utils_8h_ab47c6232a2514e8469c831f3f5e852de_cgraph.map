@@ -1,0 +1,4 @@
+<map id="Wrap" name="Wrap">
+<area shape="rect" id="node1" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="5,5,61,32"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="109,5,171,32"/>
+</map>

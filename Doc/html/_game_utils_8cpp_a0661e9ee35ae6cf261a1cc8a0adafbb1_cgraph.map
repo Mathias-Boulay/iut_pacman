@@ -1,0 +1,6 @@
+<map id="LoadGameMap" name="LoadGameMap">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,125,83"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079" title="Récupère le contenu d&#39;un fichier et le stock dans un wstring (pour la gestion des caractères unicodes..." alt="" coords="225,5,299,32"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d" title="Vide la GameMap." alt="" coords="173,56,351,83"/>
+<area shape="rect" id="node4" href="$_game_utils_8cpp.html#ac7bfeebd17eb9fcfdba3552cf752d550" title=" " alt="" coords="210,107,314,133"/>
+</map>

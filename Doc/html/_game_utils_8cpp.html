@@ -1,0 +1,1270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentation Pacman M1103: Référence du fichier Nos_Fichiers/source/GameUtils.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Documentation Pacman M1103
+   &#160;<span id="projectnumber">1.01</span>
+   </div>
+   <div id="projectbrief">Documentation à propos de notre pacman réalisé dans le cadre du module m1103</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f4a5ed3d1e5fd8b4194045c6d287b1d7.html">Nos_Fichiers</a></li><li class="navelem"><a class="el" href="dir_82af91f236c8293dc7e47709fbe080e9.html">source</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier GameUtils.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_game_utils_8h_source.html">GameUtils.h</a>&quot;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;experimental/random&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de GameUtils.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp__incl.png" border="0" usemap="#_nos___fichiers_2source_2_game_utils_8cpp" alt=""/></div>
+<map name="_nos___fichiers_2source_2_game_utils_8cpp" id="_nos___fichiers_2source_2_game_utils_8cpp">
+<area shape="rect" title=" " alt="" coords="272,5,423,47"/>
+<area shape="rect" href="types_8h.html" title="Un ensemble de types facilitant la création du jeu." alt="" coords="41,169,112,196"/>
+<area shape="rect" href="_game_utils_8h.html" title="A set of function which defines basic game systems." alt="" coords="252,95,355,121"/>
+<area shape="rect" title=" " alt="" coords="476,169,549,196"/>
+<area shape="rect" title=" " alt="" coords="430,95,593,121"/>
+<area shape="rect" title=" " alt="" coords="233,244,313,271"/>
+<area shape="rect" title=" " alt="" coords="5,244,68,271"/>
+<area shape="rect" title=" " alt="" coords="93,244,143,271"/>
+<area shape="rect" title=" " alt="" coords="377,169,451,196"/>
+<area shape="rect" title=" " alt="" coords="136,169,209,196"/>
+<area shape="rect" title=" " alt="" coords="233,169,301,196"/>
+</map>
+</div>
+</div>
+<p><a href="_game_utils_8cpp_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a3b767a627a6e0be5ff97270b886a6079"><td class="memItemLeft" align="right" valign="top">wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079">readFile</a> (std::string filename)</td></tr>
+<tr class="memdesc:a3b767a627a6e0be5ff97270b886a6079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère le contenu d'un fichier et le stock dans un wstring (pour la gestion des caractères unicodes)  <a href="_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3b767a627a6e0be5ff97270b886a6079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf8dfdf0e7c7ece4d444a2c551f4f62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62">isWall</a> (const <a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a> &amp;Case, const bool CheckX)</td></tr>
+<tr class="memdesc:a0bf8dfdf0e7c7ece4d444a2c551f4f62"><td class="mdescLeft">&#160;</td><td class="mdescRight">vérifie la présence d'un mur à la case spécifié  <a href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0bf8dfdf0e7c7ece4d444a2c551f4f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbca65732eeaf492b6d53b0792a2bf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6">CollisionCheck</a> (const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;FirstEntity, const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;SecondEntity)</td></tr>
+<tr class="memdesc:a2cbca65732eeaf492b6d53b0792a2bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">vérifie si les deux positions sont identiques  <a href="_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2cbca65732eeaf492b6d53b0792a2bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47c6232a2514e8469c831f3f5e852de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de">Wrap</a> (const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map, <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;PosToWrap)</td></tr>
+<tr class="memdesc:ab47c6232a2514e8469c831f3f5e852de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gère le positionnement quand une entité prend un tunnel.  <a href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab47c6232a2514e8469c831f3f5e852de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe2a29e6d7e30dba20828fa048abdbe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe">Move</a> (const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map, <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;EntityPosition, const <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;<a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a>, const bool CheckX)</td></tr>
+<tr class="memdesc:a6fe2a29e6d7e30dba20828fa048abdbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Déplace l'entité dans la direction donnée, si il n'y a pas de mur. La valeur renvoyé exprime la réussite du mouvement.  <a href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6fe2a29e6d7e30dba20828fa048abdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af853d4f51a1896e41ee4851f0cfb9bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#af853d4f51a1896e41ee4851f0cfb9bde">Eat</a> (<a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a> &amp;Case, <a class="el" href="struct_pacman.html">Pacman</a> &amp;<a class="el" href="struct_pacman.html">Pacman</a>, unsigned &amp;PacGumNumber, <a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;<a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a>)</td></tr>
+<tr class="memdesc:af853d4f51a1896e41ee4851f0cfb9bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fait manger pacman, il mange les fantômes et les (super-)pacgommes.  <a href="_game_utils_8cpp.html#af853d4f51a1896e41ee4851f0cfb9bde">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af853d4f51a1896e41ee4851f0cfb9bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919103808afab67a199f5156b2af3a2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d">ResetGameMapContent</a> (<a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map)</td></tr>
+<tr class="memdesc:a919103808afab67a199f5156b2af3a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vide la GameMap.  <a href="_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a919103808afab67a199f5156b2af3a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7bfeebd17eb9fcfdba3552cf752d550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#ac7bfeebd17eb9fcfdba3552cf752d550">ResetGhosts</a> (<a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;<a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a>)</td></tr>
+<tr class="separator:ac7bfeebd17eb9fcfdba3552cf752d550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0661e9ee35ae6cf261a1cc8a0adafbb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1">LoadGameMap</a> (const string FilePath, <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map, <a class="el" href="struct_pacman.html">Pacman</a> &amp;<a class="el" href="struct_pacman.html">Pacman</a>, <a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;<a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a>, unsigned &amp;PacGumsNumber)</td></tr>
+<tr class="separator:a0661e9ee35ae6cf261a1cc8a0adafbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace912809ad5379beac0bf64e4d011f26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#ace912809ad5379beac0bf64e4d011f26">isNear</a> (const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;FirstEntity, const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;SecondEntity, unsigned Distance)</td></tr>
+<tr class="memdesc:ace912809ad5379beac0bf64e4d011f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renvoie si les entitées sont à moins de la distance spécifié l'un de l'autre.  <a href="_game_utils_8cpp.html#ace912809ad5379beac0bf64e4d011f26">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ace912809ad5379beac0bf64e4d011f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab42c623f494e473dc01f048f98fcd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7">isHalfTurn</a> (const <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;LastDir, const <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;DirectionInComing)</td></tr>
+<tr class="memdesc:adab42c623f494e473dc01f048f98fcd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport à une direction LastDir.  <a href="_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adab42c623f494e473dc01f048f98fcd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc1da30c3bc332e1a495b9ae31fdd67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a2cc1da30c3bc332e1a495b9ae31fdd67">isDeadEnd</a> (const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map, const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;<a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a>)</td></tr>
+<tr class="memdesc:a2cc1da30c3bc332e1a495b9ae31fdd67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renvoie vrai si l'entité est dans un cul de sac.  <a href="_game_utils_8cpp.html#a2cc1da30c3bc332e1a495b9ae31fdd67">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2cc1da30c3bc332e1a495b9ae31fdd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf528ac3460b215bdeeb93a06df89f65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#acf528ac3460b215bdeeb93a06df89f65">GoOpposite</a> (const <a class="el" href="struct_pacman.html">Pacman</a> &amp;<a class="el" href="struct_pacman.html">Pacman</a>, <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;PositionGhost, <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;Previous, const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map)</td></tr>
+<tr class="memdesc:acf528ac3460b215bdeeb93a06df89f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renvoie la direction opposée à pacman.  <a href="_game_utils_8cpp.html#acf528ac3460b215bdeeb93a06df89f65">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acf528ac3460b215bdeeb93a06df89f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ffec93151e98674b15248aa1d9c39ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a9ffec93151e98674b15248aa1d9c39ed">CLYDE</a> (<a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;PositionClyde, const <a class="el" href="struct_pacman.html">Pacman</a> &amp;<a class="el" href="struct_pacman.html">Pacman</a>, const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map)</td></tr>
+<tr class="memdesc:a9ffec93151e98674b15248aa1d9c39ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intelligence Artificielle du fantôme Clyde : Il fuit dès que <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> s'approche et prend des direction aléatoires le reste du temps.  <a href="_game_utils_8cpp.html#a9ffec93151e98674b15248aa1d9c39ed">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9ffec93151e98674b15248aa1d9c39ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60e8acb5216387eb10d5286af035b8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#aa60e8acb5216387eb10d5286af035b8a">MoveToPacMan</a> (<a class="el" href="struct_ghost.html">Ghost</a> &amp;<a class="el" href="struct_ghost.html">Ghost</a>, const <a class="el" href="struct_pacman.html">Pacman</a> &amp;<a class="el" href="struct_pacman.html">Pacman</a>, const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map)</td></tr>
+<tr class="memdesc:aa60e8acb5216387eb10d5286af035b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction permettant à un fantôme de suivre <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> en fonction de sa position par rapport à celle de <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a>.  <a href="_game_utils_8cpp.html#aa60e8acb5216387eb10d5286af035b8a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa60e8acb5216387eb10d5286af035b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a48b49e4c6417230c7fee31470decb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a7a48b49e4c6417230c7fee31470decb3">IARandom</a> (const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map, <a class="el" href="struct_ghost.html">Ghost</a> &amp;ghost)</td></tr>
+<tr class="memdesc:a7a48b49e4c6417230c7fee31470decb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intelligence artificielle d'un fantôme qui change aléatoirement de direction lorsque l'occasion est présente.  <a href="_game_utils_8cpp.html#a7a48b49e4c6417230c7fee31470decb3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7a48b49e4c6417230c7fee31470decb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd9618fef044e1c7111f226491fe158"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a1fd9618fef044e1c7111f226491fe158">Escape</a> (const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map, <a class="el" href="struct_ghost.html">Ghost</a> &amp;ghost)</td></tr>
+<tr class="memdesc:a1fd9618fef044e1c7111f226491fe158"><td class="mdescLeft">&#160;</td><td class="mdescRight">IA par défaut pour les fantômes qui se trouvent dans leur cage d'apparition. Aide les fantômes à sortir de là.  <a href="_game_utils_8cpp.html#a1fd9618fef044e1c7111f226491fe158">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1fd9618fef044e1c7111f226491fe158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f51b5583c5a19b2588898969569da6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f">sign</a> (const int x)</td></tr>
+<tr class="memdesc:a5f51b5583c5a19b2588898969569da6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un entier prenant les valeurs -1;0;1 en fonction du signe de l'argument.  <a href="_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5f51b5583c5a19b2588898969569da6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a9ffec93151e98674b15248aa1d9c39ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffec93151e98674b15248aa1d9c39ed">&#9670;&nbsp;</a></span>CLYDE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CLYDE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>PositionClyde</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_pacman.html">Pacman</a> &amp;&#160;</td>
+          <td class="paramname"><em>Pacman</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Intelligence Artificielle du fantôme Clyde : Il fuit dès que <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> s'approche et prend des direction aléatoires le reste du temps. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">PositionClyde</td><td>: Position du Fantôme à bouger </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a></td><td>: <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a>, pour avoir la distance relative du fantôme </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>: La carte actuelle, pour pouvoir tester si il ne rentre pas dans un mur</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00267">267</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_cgraph.png" border="0" usemap="#_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_cgraph" id="_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_cgraph">
+<area shape="rect" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="5,132,68,159"/>
+<area shape="rect" href="_game_utils_8cpp.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="116,56,215,83"/>
+<area shape="rect" href="_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="265,5,351,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="401,157,463,184"/>
+<area shape="rect" href="_game_utils_8cpp.html#a2cc1da30c3bc332e1a495b9ae31fdd67" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="263,157,353,184"/>
+<area shape="rect" href="_game_utils_8cpp.html#ace912809ad5379beac0bf64e4d011f26" title="Renvoie si les entitées sont à moins de la distance spécifié l&#39;un de l&#39;autre." alt="" coords="133,208,197,235"/>
+<area shape="rect" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="136,259,195,285"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="280,259,336,285"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_icgraph.png" border="0" usemap="#_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_icgraph" id="_game_utils_8cpp_a9ffec93151e98674b15248aa1d9c39ed_icgraph">
+<area shape="rect" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="536,31,599,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2cbca65732eeaf492b6d53b0792a2bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbca65732eeaf492b6d53b0792a2bf6">&#9670;&nbsp;</a></span>CollisionCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CollisionCheck </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>FirstEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>SecondEntity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>vérifie si les deux positions sont identiques </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">FirstEntity</td><td>La première position </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">SecondEntity</td><td>La seconde position</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>bool </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00029">29</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a2cbca65732eeaf492b6d53b0792a2bf6_icgraph.png" border="0" usemap="#_game_utils_8cpp_a2cbca65732eeaf492b6d53b0792a2bf6_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a2cbca65732eeaf492b6d53b0792a2bf6_icgraph" id="_game_utils_8cpp_a2cbca65732eeaf492b6d53b0792a2bf6_icgraph">
+<area shape="rect" title="vérifie si les deux positions sont identiques" alt="" coords="627,31,745,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_utils_8h.html#af853d4f51a1896e41ee4851f0cfb9bde" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="536,31,579,57"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af853d4f51a1896e41ee4851f0cfb9bde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af853d4f51a1896e41ee4851f0cfb9bde">&#9670;&nbsp;</a></span>Eat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Eat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a> &amp;&#160;</td>
+          <td class="paramname"><em>Case</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pacman.html">Pacman</a> &amp;&#160;</td>
+          <td class="paramname"><em>Pacman</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned &amp;&#160;</td>
+          <td class="paramname"><em>PacGumNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;&#160;</td>
+          <td class="paramname"><em>Ghosts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fait manger pacman, il mange les fantômes et les (super-)pacgommes. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">Case</td><td>La case sur laquelle manger </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname"><a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a></td><td>Le pacman qui mange </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">PacGumNumber</td><td>nombre de pacgommes restantes </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">Ghosts</td><td>Les fantômes qui peuvent être mangés</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00076">76</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_cgraph.png" border="0" usemap="#_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_cgraph" id="_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_cgraph">
+<area shape="rect" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="5,5,48,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6" title="vérifie si les deux positions sont identiques" alt="" coords="96,5,215,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_icgraph.png" border="0" usemap="#_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_icgraph" id="_game_utils_8cpp_af853d4f51a1896e41ee4851f0cfb9bde_icgraph">
+<area shape="rect" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="536,31,579,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1fd9618fef044e1c7111f226491fe158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd9618fef044e1c7111f226491fe158">&#9670;&nbsp;</a></span>Escape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Escape </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ghost.html">Ghost</a> &amp;&#160;</td>
+          <td class="paramname"><em>ghost</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IA par défaut pour les fantômes qui se trouvent dans leur cage d'apparition. Aide les fantômes à sortir de là. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>La map sur laquelle se déplacer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ghost</td><td>L'entité qui se déplace.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00994">994</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_cgraph.png" border="0" usemap="#_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_cgraph" id="_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_cgraph">
+<area shape="rect" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="5,5,73,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="121,5,180,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="332,5,393,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="228,31,284,57"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_icgraph.png" border="0" usemap="#_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_icgraph" id="_game_utils_8cpp_a1fd9618fef044e1c7111f226491fe158_icgraph">
+<area shape="rect" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="536,31,604,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acf528ac3460b215bdeeb93a06df89f65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf528ac3460b215bdeeb93a06df89f65">&#9670;&nbsp;</a></span>GoOpposite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> GoOpposite </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_pacman.html">Pacman</a> &amp;&#160;</td>
+          <td class="paramname"><em>Pacman</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>PositionGhost</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;&#160;</td>
+          <td class="paramname"><em>Previous</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Renvoie la direction opposée à pacman. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"><a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a></td><td>: <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a>, pour connaître sa position </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">PositionGhost</td><td>: La position du fantôme à changer </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">Previous</td><td>: Le mouvement précédent du fantôme, pour le comparer au mouvement à venir et éviter les demi-tours </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>: la carte actuelle, pour tester si il ne va pas dans une direction avec un mur</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Direction </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00190">190</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_cgraph.png" border="0" usemap="#_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_cgraph" id="_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_cgraph">
+<area shape="rect" title="Renvoie la direction opposée à pacman." alt="" coords="5,31,104,57"/>
+<area shape="rect" href="_game_utils_8cpp.html#adab42c623f494e473dc01f048f98fcd7" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="152,5,239,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="165,56,226,83"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_icgraph.png" border="0" usemap="#_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_icgraph" id="_game_utils_8cpp_acf528ac3460b215bdeeb93a06df89f65_icgraph">
+<area shape="rect" title="Renvoie la direction opposée à pacman." alt="" coords="647,31,745,57"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="536,31,599,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7a48b49e4c6417230c7fee31470decb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a48b49e4c6417230c7fee31470decb3">&#9670;&nbsp;</a></span>IARandom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IARandom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ghost.html">Ghost</a> &amp;&#160;</td>
+          <td class="paramname"><em>ghost</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Intelligence artificielle d'un fantôme qui change aléatoirement de direction lorsque l'occasion est présente. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>La map sur laquelle se déplacer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ghost</td><td>L'entité qui se déplace.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00883">883</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_cgraph.png" border="0" usemap="#_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_cgraph" id="_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_cgraph">
+<area shape="rect" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="5,5,95,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="353,31,415,57"/>
+<area shape="rect" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="143,31,201,57"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="249,81,305,108"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_icgraph.png" border="0" usemap="#_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_icgraph" id="_game_utils_8cpp_a7a48b49e4c6417230c7fee31470decb3_icgraph">
+<area shape="rect" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="536,31,625,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2cc1da30c3bc332e1a495b9ae31fdd67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc1da30c3bc332e1a495b9ae31fdd67">&#9670;&nbsp;</a></span>isDeadEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isDeadEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>Position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Renvoie vrai si l'entité est dans un cul de sac. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>La carte étudiée </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">SecondEntity</td><td>La position de l'entité pottentiellement bloqué</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>bool </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00181">181</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_cgraph.png" border="0" usemap="#_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_cgraph" id="_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_cgraph">
+<area shape="rect" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="5,5,96,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="144,5,205,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_icgraph.png" border="0" usemap="#_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_icgraph" id="_game_utils_8cpp_a2cc1da30c3bc332e1a495b9ae31fdd67_icgraph">
+<area shape="rect" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="647,31,737,57"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="536,31,599,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adab42c623f494e473dc01f048f98fcd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab42c623f494e473dc01f048f98fcd7">&#9670;&nbsp;</a></span>isHalfTurn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isHalfTurn </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;&#160;</td>
+          <td class="paramname"><em>LastDir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;&#160;</td>
+          <td class="paramname"><em>DirectionInComing</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport à une direction LastDir. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">LastDir</td><td>: Dernière direction du fantôme </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">DirectionInComing</td><td>: Direction que le fantôme va prendre</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>bool </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00175">175</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_adab42c623f494e473dc01f048f98fcd7_icgraph.png" border="0" usemap="#_game_utils_8cpp_adab42c623f494e473dc01f048f98fcd7_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_adab42c623f494e473dc01f048f98fcd7_icgraph" id="_game_utils_8cpp_adab42c623f494e473dc01f048f98fcd7_icgraph">
+<area shape="rect" title="Fonction booléenne qui renvoie vrai si une direction DirectionInComing va en sens inverse par rapport..." alt="" coords="793,31,880,57"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="536,31,599,57"/>
+<area shape="rect" href="_game_utils_8h.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="647,56,745,83"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ace912809ad5379beac0bf64e4d011f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace912809ad5379beac0bf64e4d011f26">&#9670;&nbsp;</a></span>isNear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isNear </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>FirstEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>SecondEntity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>Distance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Renvoie si les entitées sont à moins de la distance spécifié l'un de l'autre. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">FirstEntity</td><td>La position de la première entité </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">SecondEntity</td><td>La position de la seconde entité </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Distance</td><td>La distance à vérifier</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>bool </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00171">171</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_ace912809ad5379beac0bf64e4d011f26_icgraph.png" border="0" usemap="#_game_utils_8cpp_ace912809ad5379beac0bf64e4d011f26_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_ace912809ad5379beac0bf64e4d011f26_icgraph" id="_game_utils_8cpp_ace912809ad5379beac0bf64e4d011f26_icgraph">
+<area shape="rect" title="Renvoie si les entitées sont à moins de la distance spécifié l&#39;un de l&#39;autre." alt="" coords="647,31,711,57"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="536,31,599,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0bf8dfdf0e7c7ece4d444a2c551f4f62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf8dfdf0e7c7ece4d444a2c551f4f62">&#9670;&nbsp;</a></span>isWall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isWall </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a297ea759e503bd8fd7c5f2a7f21d6ff9">MapCase</a> &amp;&#160;</td>
+          <td class="paramname"><em>Case</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>CheckX</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>vérifie la présence d'un mur à la case spécifié </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Case</td><td>la case à vérifier </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">CheckX</td><td>booléen pour vérifier (ou non) les barbelés</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>bool </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00018">18</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a0bf8dfdf0e7c7ece4d444a2c551f4f62_icgraph.png" border="0" usemap="#_game_utils_8cpp_a0bf8dfdf0e7c7ece4d444a2c551f4f62_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a0bf8dfdf0e7c7ece4d444a2c551f4f62_icgraph" id="_game_utils_8cpp_a0bf8dfdf0e7c7ece4d444a2c551f4f62_icgraph">
+<area shape="rect" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="992,132,1053,159"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="566,31,629,57"/>
+<area shape="rect" href="_game_utils_8h.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="707,31,805,57"/>
+<area shape="rect" href="_game_utils_8h.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="553,233,642,260"/>
+<area shape="rect" href="_game_utils_8h.html#a2cc1da30c3bc332e1a495b9ae31fdd67" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="853,81,944,108"/>
+<area shape="rect" href="_game_utils_8h.html#a0b312ea5a70c9d68c0e0c0f4f3e52f61" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="727,157,785,184"/>
+<area shape="rect" href="_game_utils_8h.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="536,284,659,311"/>
+<area shape="rect" href="_game_utils_8h.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="871,132,927,159"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,132,488,159"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,183,488,209"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,157,333,184"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,157,199,184"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,157,60,184"/>
+<area shape="rect" href="_game_utils_8h.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="563,132,631,159"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0661e9ee35ae6cf261a1cc8a0adafbb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0661e9ee35ae6cf261a1cc8a0adafbb1">&#9670;&nbsp;</a></span>LoadGameMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LoadGameMap </td>
+          <td>(</td>
+          <td class="paramtype">const string&#160;</td>
+          <td class="paramname"><em>FilePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pacman.html">Pacman</a> &amp;&#160;</td>
+          <td class="paramname"><em>Pacman</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;&#160;</td>
+          <td class="paramname"><em>Ghosts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned &amp;&#160;</td>
+          <td class="paramname"><em>PacGumsNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00116">116</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_cgraph.png" border="0" usemap="#_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_cgraph" id="_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,125,83"/>
+<area shape="rect" href="_game_utils_8cpp.html#a3b767a627a6e0be5ff97270b886a6079" title="Récupère le contenu d&#39;un fichier et le stock dans un wstring (pour la gestion des caractères unicodes..." alt="" coords="225,5,299,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a919103808afab67a199f5156b2af3a2d" title="Vide la GameMap." alt="" coords="173,56,351,83"/>
+<area shape="rect" href="_game_utils_8cpp.html#ac7bfeebd17eb9fcfdba3552cf752d550" title=" " alt="" coords="210,107,314,133"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_icgraph.png" border="0" usemap="#_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_icgraph" id="_game_utils_8cpp_a0661e9ee35ae6cf261a1cc8a0adafbb1_icgraph">
+<area shape="rect" title=" " alt="" coords="536,31,656,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6fe2a29e6d7e30dba20828fa048abdbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe2a29e6d7e30dba20828fa048abdbe">&#9670;&nbsp;</a></span>Move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Move </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>InitialPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ab85bf93c1d020fb6d76a1585fe614b3a">Direction</a> &amp;&#160;</td>
+          <td class="paramname"><em>Direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>checkX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Déplace l'entité dans la direction donnée, si il n'y a pas de mur. La valeur renvoyé exprime la réussite du mouvement. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>La map sur laquelle se déplacer </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">InitialPosition</td><td>Position initiale de l'entité </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Direction</td><td>Direction vers laquelle l'entité se déplace</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>bool </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00062">62</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_cgraph.png" border="0" usemap="#_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_cgraph" id="_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_cgraph">
+<area shape="rect" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="5,5,64,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="216,5,277,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="112,31,168,57"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_icgraph.png" border="0" usemap="#_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_icgraph" id="_game_utils_8cpp_a6fe2a29e6d7e30dba20828fa048abdbe_icgraph">
+<area shape="rect" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="707,109,765,136"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,84,488,111"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="566,33,629,60"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,135,488,161"/>
+<area shape="rect" href="_game_utils_8h.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="563,84,631,111"/>
+<area shape="rect" href="_game_utils_8h.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="553,135,642,161"/>
+<area shape="rect" href="_game_utils_8h.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="536,185,659,212"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,109,333,136"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,109,199,136"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,109,60,136"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa60e8acb5216387eb10d5286af035b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60e8acb5216387eb10d5286af035b8a">&#9670;&nbsp;</a></span>MoveToPacMan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MoveToPacMan </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_ghost.html">Ghost</a> &amp;&#160;</td>
+          <td class="paramname"><em>Ghost</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_pacman.html">Pacman</a> &amp;&#160;</td>
+          <td class="paramname"><em>Pacman</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction permettant à un fantôme de suivre <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> en fonction de sa position par rapport à celle de <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a>. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname"><a class="el" href="struct_ghost.html" title="Struct contenant des éléments pour les fantômes.">Ghost</a></td><td>&amp; <a class="el" href="struct_ghost.html" title="Struct contenant des éléments pour les fantômes.">Ghost</a> : Permet de récuperer la struct du fantôme pour obtenir sa position et le déplacer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">const</td><td><a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> &amp; <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> : Permet de récuperer la struct de <a class="el" href="struct_pacman.html" title="Struct contenant des éléments pour pacman.">Pacman</a> pour obtenir sa position et la comparer à celle du fantôme </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">GameMap</td><td>&amp; Map : Permet de récuper la map sur laquelle le fantôme évolue pour pouvoir le déplacer dessus en conséquence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00309">309</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_cgraph.png" border="0" usemap="#_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_cgraph" id="_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_cgraph">
+<area shape="rect" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="5,23,128,49"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="387,23,448,49"/>
+<area shape="rect" href="_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="176,23,235,49"/>
+<area shape="rect" href="_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f" title="Retourne un entier prenant les valeurs &#45;1;0;1 en fonction du signe de l&#39;argument." alt="" coords="181,73,230,100"/>
+<area shape="rect" href="_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="283,73,339,100"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_icgraph.png" border="0" usemap="#_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_icgraph" id="_game_utils_8cpp_aa60e8acb5216387eb10d5286af035b8a_icgraph">
+<area shape="rect" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="536,31,659,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3b767a627a6e0be5ff97270b886a6079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b767a627a6e0be5ff97270b886a6079">&#9670;&nbsp;</a></span>readFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring readFile </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère le contenu d'un fichier et le stock dans un wstring (pour la gestion des caractères unicodes) </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">filename</td><td>Chemin vers le fichier à lire</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>std::wstring </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00008">8</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a3b767a627a6e0be5ff97270b886a6079_icgraph.png" border="0" usemap="#_game_utils_8cpp_a3b767a627a6e0be5ff97270b886a6079_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a3b767a627a6e0be5ff97270b886a6079_icgraph" id="_game_utils_8cpp_a3b767a627a6e0be5ff97270b886a6079_icgraph">
+<area shape="rect" title="Récupère le contenu d&#39;un fichier et le stock dans un wstring (pour la gestion des caractères unicodes..." alt="" coords="704,31,779,57"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1" title=" " alt="" coords="536,31,656,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a919103808afab67a199f5156b2af3a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919103808afab67a199f5156b2af3a2d">&#9670;&nbsp;</a></span>ResetGameMapContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResetGameMapContent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vide la GameMap. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">GameMap</td><td>GameMap à vider</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00108">108</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a919103808afab67a199f5156b2af3a2d_icgraph.png" border="0" usemap="#_game_utils_8cpp_a919103808afab67a199f5156b2af3a2d_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a919103808afab67a199f5156b2af3a2d_icgraph" id="_game_utils_8cpp_a919103808afab67a199f5156b2af3a2d_icgraph">
+<area shape="rect" title="Vide la GameMap." alt="" coords="704,31,881,57"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1" title=" " alt="" coords="536,31,656,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac7bfeebd17eb9fcfdba3552cf752d550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7bfeebd17eb9fcfdba3552cf752d550">&#9670;&nbsp;</a></span>ResetGhosts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResetGhosts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;&#160;</td>
+          <td class="paramname"><em>Ghosts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00112">112</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_ac7bfeebd17eb9fcfdba3552cf752d550_icgraph.png" border="0" usemap="#_game_utils_8cpp_ac7bfeebd17eb9fcfdba3552cf752d550_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_ac7bfeebd17eb9fcfdba3552cf752d550_icgraph" id="_game_utils_8cpp_ac7bfeebd17eb9fcfdba3552cf752d550_icgraph">
+<area shape="rect" title=" " alt="" coords="704,31,808,57"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0661e9ee35ae6cf261a1cc8a0adafbb1" title=" " alt="" coords="536,31,656,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5f51b5583c5a19b2588898969569da6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f51b5583c5a19b2588898969569da6f">&#9670;&nbsp;</a></span>sign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int sign </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retourne un entier prenant les valeurs -1;0;1 en fonction du signe de l'argument. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Valeur dont le signe est testé</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>int </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l01003">1003</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_a5f51b5583c5a19b2588898969569da6f_icgraph.png" border="0" usemap="#_game_utils_8cpp_a5f51b5583c5a19b2588898969569da6f_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_a5f51b5583c5a19b2588898969569da6f_icgraph" id="_game_utils_8cpp_a5f51b5583c5a19b2588898969569da6f_icgraph">
+<area shape="rect" title="Retourne un entier prenant les valeurs &#45;1;0;1 en fonction du signe de l&#39;argument." alt="" coords="707,31,756,57"/>
+<area shape="rect" href="_game_utils_8h.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="536,31,659,57"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,56,488,83"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,31,333,57"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,31,199,57"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab47c6232a2514e8469c831f3f5e852de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47c6232a2514e8469c831f3f5e852de">&#9670;&nbsp;</a></span>Wrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wrap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;&#160;</td>
+          <td class="paramname"><em>Map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa8bdd9cbdadacfa59f5d2bf4df5bebd7">Position</a> &amp;&#160;</td>
+          <td class="paramname"><em>PosToWrap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gère le positionnement quand une entité prend un tunnel. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Map</td><td>La map sur laquelle se déplacer </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">PosToWrap</td><td>Position initiale (puis finale) de l'entité</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_game_utils_8cpp_source.html#l00033">33</a> du fichier <a class="el" href="_game_utils_8cpp_source.html">GameUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_cgraph.png" border="0" usemap="#_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_cgraph" alt=""/></div>
+<map name="_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_cgraph" id="_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_cgraph">
+<area shape="rect" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="5,5,61,32"/>
+<area shape="rect" href="_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="109,5,171,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_icgraph.png" border="0" usemap="#_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_icgraph" alt=""/></div>
+<map name="_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_icgraph" id="_game_utils_8cpp_ab47c6232a2514e8469c831f3f5e852de_icgraph">
+<area shape="rect" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="813,109,869,136"/>
+<area shape="rect" href="_game_utils_8h.html#a0b312ea5a70c9d68c0e0c0f4f3e52f61" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="707,109,765,136"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,84,488,111"/>
+<area shape="rect" href="_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="566,33,629,60"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,135,488,161"/>
+<area shape="rect" href="_game_utils_8h.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="563,84,631,111"/>
+<area shape="rect" href="_game_utils_8h.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="553,135,642,161"/>
+<area shape="rect" href="_game_utils_8h.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="536,185,659,212"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,109,333,136"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,109,199,136"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,109,60,136"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

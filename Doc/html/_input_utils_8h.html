@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentation Pacman M1103: Référence du fichier Nos_Fichiers/source/InputUtils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Documentation Pacman M1103
+   &#160;<span id="projectnumber">1.01</span>
+   </div>
+   <div id="projectbrief">Documentation à propos de notre pacman réalisé dans le cadre du module m1103</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f4a5ed3d1e5fd8b4194045c6d287b1d7.html">Nos_Fichiers</a></li><li class="navelem"><a class="el" href="dir_82af91f236c8293dc7e47709fbe080e9.html">source</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier InputUtils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Ensemble de fonctions permettant de simplifier la capture d'entrées au clavier.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;termios.h&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;cctype&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de InputUtils.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h__incl.png" border="0" usemap="#_nos___fichiers_2source_2_input_utils_8h" alt=""/></div>
+<map name="_nos___fichiers_2source_2_input_utils_8h" id="_nos___fichiers_2source_2_input_utils_8h">
+<area shape="rect" title="Ensemble de fonctions permettant de simplifier la capture d&#39;entrées au clavier." alt="" coords="206,5,357,47"/>
+<area shape="rect" title=" " alt="" coords="5,95,80,121"/>
+<area shape="rect" title=" " alt="" coords="104,95,171,121"/>
+<area shape="rect" title=" " alt="" coords="195,95,266,121"/>
+<area shape="rect" title=" " alt="" coords="290,95,374,121"/>
+<area shape="rect" title=" " alt="" coords="398,95,461,121"/>
+<area shape="rect" title=" " alt="" coords="485,95,550,121"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h__dep__incl.png" border="0" usemap="#_nos___fichiers_2source_2_input_utils_8hdep" alt=""/></div>
+<map name="_nos___fichiers_2source_2_input_utils_8hdep" id="_nos___fichiers_2source_2_input_utils_8hdep">
+<area shape="rect" title="Ensemble de fonctions permettant de simplifier la capture d&#39;entrées au clavier." alt="" coords="271,5,422,47"/>
+<area shape="rect" href="_menu_utils_8h.html" title="A set of function to ease our work with storing and retrieving settings." alt="" coords="143,95,294,136"/>
+<area shape="rect" href="_game_8cpp.html" title=" " alt="" coords="287,184,438,225"/>
+<area shape="rect" href="_input_utils_8cpp.html" title=" " alt="" coords="385,95,535,136"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="5,191,88,218"/>
+<area shape="rect" href="_menu_utils_8cpp.html" title=" " alt="" coords="113,184,263,225"/>
+</map>
+</div>
+</div>
+<p><a href="_input_utils_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:af76480969ca72d9e22d825c131e498c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_input_utils_8h.html#af76480969ca72d9e22d825c131e498c5">ResetRawInput</a> ()</td></tr>
+<tr class="memdesc:af76480969ca72d9e22d825c131e498c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ré-initialise le terminal à son mode normal.  <a href="_input_utils_8h.html#af76480969ca72d9e22d825c131e498c5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af76480969ca72d9e22d825c131e498c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a7b9cd7b8996052cdccc6895bf9dd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_input_utils_8h.html#af6a7b9cd7b8996052cdccc6895bf9dd2">SetRawInput</a> ()</td></tr>
+<tr class="memdesc:af6a7b9cd7b8996052cdccc6895bf9dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change la console dans un mode non-buffurisé. Permet la capture touche par touche.  <a href="_input_utils_8h.html#af6a7b9cd7b8996052cdccc6895bf9dd2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af6a7b9cd7b8996052cdccc6895bf9dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4459cea9628aefef79c130a4d0e646a2"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_input_utils_8h.html#a4459cea9628aefef79c130a4d0e646a2">ReadKeyboardInput</a> ()</td></tr>
+<tr class="memdesc:a4459cea9628aefef79c130a4d0e646a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Donne la première touche du clavier pressée imprimable dans une console.  <a href="_input_utils_8h.html#a4459cea9628aefef79c130a4d0e646a2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4459cea9628aefef79c130a4d0e646a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c47f99934acf6ee7daaca7552850029"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_input_utils_8h.html#a0c47f99934acf6ee7daaca7552850029">ReadSpecificKeyboardInput</a> (const std::vector&lt; char &gt; Keys)</td></tr>
+<tr class="memdesc:a0c47f99934acf6ee7daaca7552850029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Donne la première touche de clavier pressée qui est dans l'ensemble passé en argument.  <a href="_input_utils_8h.html#a0c47f99934acf6ee7daaca7552850029">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0c47f99934acf6ee7daaca7552850029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Ensemble de fonctions permettant de simplifier la capture d'entrées au clavier. </p>
+<dl class="section author"><dt>Auteur</dt><dd>BOULAY Mathias (pour le wrapping des méthodes), </dd>
+<dd>
+Gens sur internet. </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>15 janvier 2021 </dd></dl>
+
+<p class="definition">Définition dans le fichier <a class="el" href="_input_utils_8h_source.html">InputUtils.h</a>.</p>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a4459cea9628aefef79c130a4d0e646a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4459cea9628aefef79c130a4d0e646a2">&#9670;&nbsp;</a></span>ReadKeyboardInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char ReadKeyboardInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Donne la première touche du clavier pressée imprimable dans une console. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>char </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_input_utils_8cpp_source.html#l00031">31</a> du fichier <a class="el" href="_input_utils_8cpp_source.html">InputUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_cgraph.png" border="0" usemap="#_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_cgraph" alt=""/></div>
+<map name="_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_cgraph" id="_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_cgraph">
+<area shape="rect" title="Donne la première touche du clavier pressée imprimable dans une console." alt="" coords="5,5,155,32"/>
+<area shape="rect" href="_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="355,5,475,32"/>
+<area shape="rect" href="_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="203,31,307,57"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_icgraph.png" border="0" usemap="#_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_icgraph" alt=""/></div>
+<map name="_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_icgraph" id="_input_utils_8h_a4459cea9628aefef79c130a4d0e646a2_icgraph">
+<area shape="rect" title="Donne la première touche du clavier pressée imprimable dans une console." alt="" coords="609,5,759,32"/>
+<area shape="rect" href="_menu_utils_8h.html#aa058987917cb72df98b7a4edb64a4932" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="399,5,561,32"/>
+<area shape="rect" href="_menu_utils_8h.html#afd708bb8c83ed223ced37d695b4cc400" title="Affiche les paramètres et réagit en fonction de ce qui est demandé par l&#39;utilisateur." alt="" coords="247,5,351,32"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,5,199,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0c47f99934acf6ee7daaca7552850029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c47f99934acf6ee7daaca7552850029">&#9670;&nbsp;</a></span>ReadSpecificKeyboardInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char ReadSpecificKeyboardInput </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; char &gt;&#160;</td>
+          <td class="paramname"><em>Keys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Donne la première touche de clavier pressée qui est dans l'ensemble passé en argument. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Keys</td><td>Liste de touches considérées valides</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>char </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_input_utils_8cpp_source.html#l00044">44</a> du fichier <a class="el" href="_input_utils_8cpp_source.html">InputUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_cgraph.png" border="0" usemap="#_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_cgraph" alt=""/></div>
+<map name="_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_cgraph" id="_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_cgraph">
+<area shape="rect" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="5,5,204,32"/>
+<area shape="rect" href="_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="404,5,524,32"/>
+<area shape="rect" href="_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="252,31,356,57"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_icgraph.png" border="0" usemap="#_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_icgraph" alt=""/></div>
+<map name="_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_icgraph" id="_input_utils_8h_a0c47f99934acf6ee7daaca7552850029_icgraph">
+<area shape="rect" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="685,183,884,209"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="500,5,607,32"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="291,81,377,108"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,208,199,235"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="500,107,607,133"/>
+<area shape="rect" href="_menu_utils_8h.html#ab506d610becfdf522847c114fc5cb558" title="Affiche les meilleurs scores." alt="" coords="265,208,403,235"/>
+<area shape="rect" href="_menu_utils_8h.html#a9ee58b7523876d14d08f7250c55a7e66" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="469,259,637,285"/>
+<area shape="rect" href="_menu_utils_8h.html#afd708bb8c83ed223ced37d695b4cc400" title="Affiche les paramètres et réagit en fonction de ce qui est demandé par l&#39;utilisateur." alt="" coords="282,259,386,285"/>
+<area shape="rect" href="_menu_utils_8h.html#ac7c2635834f8bea510b331befe7f88b5" title="Permet à l&#39;utilisateur de séléctionner son mode de jeu favori." alt="" coords="247,335,421,361"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,208,60,235"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af76480969ca72d9e22d825c131e498c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af76480969ca72d9e22d825c131e498c5">&#9670;&nbsp;</a></span>ResetRawInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ResetRawInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ré-initialise le terminal à son mode normal. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_input_utils_8cpp_source.html#l00006">6</a> du fichier <a class="el" href="_input_utils_8cpp_source.html">InputUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_af76480969ca72d9e22d825c131e498c5_icgraph.png" border="0" usemap="#_input_utils_8h_af76480969ca72d9e22d825c131e498c5_icgraph" alt=""/></div>
+<map name="_input_utils_8h_af76480969ca72d9e22d825c131e498c5_icgraph" id="_input_utils_8h_af76480969ca72d9e22d825c131e498c5_icgraph">
+<area shape="rect" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="1084,157,1204,184"/>
+<area shape="rect" href="_input_utils_8h.html#a4459cea9628aefef79c130a4d0e646a2" title="Donne la première touche du clavier pressée imprimable dans une console." alt="" coords="710,107,859,133"/>
+<area shape="rect" href="_input_utils_8h.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="685,208,884,235"/>
+<area shape="rect" href="_input_utils_8h.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="932,157,1036,184"/>
+<area shape="rect" href="_menu_utils_8h.html#aa058987917cb72df98b7a4edb64a4932" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="472,5,635,32"/>
+<area shape="rect" href="_menu_utils_8h.html#afd708bb8c83ed223ced37d695b4cc400" title="Affiche les paramètres et réagit en fonction de ce qui est demandé par l&#39;utilisateur." alt="" coords="282,81,386,108"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,259,199,285"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,259,60,285"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="500,208,607,235"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="291,259,377,285"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="500,309,607,336"/>
+<area shape="rect" href="_menu_utils_8h.html#ab506d610becfdf522847c114fc5cb558" title="Affiche les meilleurs scores." alt="" coords="265,335,403,361"/>
+<area shape="rect" href="_menu_utils_8h.html#a9ee58b7523876d14d08f7250c55a7e66" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="469,107,637,133"/>
+<area shape="rect" href="_menu_utils_8h.html#ac7c2635834f8bea510b331befe7f88b5" title="Permet à l&#39;utilisateur de séléctionner son mode de jeu favori." alt="" coords="247,397,421,424"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af6a7b9cd7b8996052cdccc6895bf9dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a7b9cd7b8996052cdccc6895bf9dd2">&#9670;&nbsp;</a></span>SetRawInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetRawInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change la console dans un mode non-buffurisé. Permet la capture touche par touche. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>void </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="_input_utils_8cpp_source.html#l00010">10</a> du fichier <a class="el" href="_input_utils_8cpp_source.html">InputUtils.cpp</a>.</p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_cgraph.png" border="0" usemap="#_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_cgraph" alt=""/></div>
+<map name="_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_cgraph" id="_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_cgraph">
+<area shape="rect" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="5,5,109,32"/>
+<area shape="rect" href="_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="157,5,277,32"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_icgraph.png" border="0" usemap="#_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_icgraph" alt=""/></div>
+<map name="_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_icgraph" id="_input_utils_8h_af6a7b9cd7b8996052cdccc6895bf9dd2_icgraph">
+<area shape="rect" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="932,183,1036,209"/>
+<area shape="rect" href="_input_utils_8h.html#a4459cea9628aefef79c130a4d0e646a2" title="Donne la première touche du clavier pressée imprimable dans une console." alt="" coords="710,81,859,108"/>
+<area shape="rect" href="_input_utils_8h.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="685,208,884,235"/>
+<area shape="rect" href="_menu_utils_8h.html#aa058987917cb72df98b7a4edb64a4932" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="472,5,635,32"/>
+<area shape="rect" href="_menu_utils_8h.html#afd708bb8c83ed223ced37d695b4cc400" title="Affiche les paramètres et réagit en fonction de ce qui est demandé par l&#39;utilisateur." alt="" coords="282,81,386,108"/>
+<area shape="rect" href="_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,259,199,285"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,259,60,285"/>
+<area shape="rect" href="_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="500,208,607,235"/>
+<area shape="rect" href="_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="291,259,377,285"/>
+<area shape="rect" href="_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="500,309,607,336"/>
+<area shape="rect" href="_menu_utils_8h.html#ab506d610becfdf522847c114fc5cb558" title="Affiche les meilleurs scores." alt="" coords="265,321,403,348"/>
+<area shape="rect" href="_menu_utils_8h.html#a9ee58b7523876d14d08f7250c55a7e66" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="469,107,637,133"/>
+<area shape="rect" href="_menu_utils_8h.html#ac7c2635834f8bea510b331befe7f88b5" title="Permet à l&#39;utilisateur de séléctionner son mode de jeu favori." alt="" coords="247,397,421,424"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

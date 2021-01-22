@@ -1,0 +1,9 @@
+<map id="YouLostMenu" name="YouLostMenu">
+<area shape="rect" id="node1" title="Démonte le moral du joueur avec un message &quot;sympa&quot;. Stocke le score si il est bon." alt="" coords="5,81,112,108"/>
+<area shape="rect" id="node2" href="$_display_utils_8cpp.html#add3f9bdeb1b61704feeddfd22dcaefab" title="Nettoie l&#39;écran pour qu&#39;il n&#39;y ai plus rien sur l&#39;écran." alt="" coords="192,5,297,32"/>
+<area shape="rect" id="node3" href="$_menu_utils_8cpp.html#a024413c0eab737bb237131c17b94f351" title="Affiche le logo pacman." alt="" coords="160,56,329,83"/>
+<area shape="rect" id="node4" href="$_setting_utils_8cpp.html#aa1eedf1ecfdc00e61b4d7c5e1bae1c7f" title="Stocke le score si il est assez bon." alt="" coords="182,107,307,133"/>
+<area shape="rect" id="node6" href="$_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="191,157,298,184"/>
+<area shape="rect" id="node5" href="$_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="399,107,511,133"/>
+<area shape="rect" id="node7" href="$_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="377,157,532,184"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Escape" name="Escape">
+<area shape="rect" id="node1" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="5,5,73,32"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="121,5,180,32"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="332,5,393,32"/>
+<area shape="rect" id="node4" href="$_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="228,31,284,57"/>
+</map>

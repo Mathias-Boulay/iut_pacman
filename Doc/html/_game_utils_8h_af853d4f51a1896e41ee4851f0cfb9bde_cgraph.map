@@ -1,0 +1,4 @@
+<map id="Eat" name="Eat">
+<area shape="rect" id="node1" title="Fait manger pacman, il mange les fantômes et les (super&#45;)pacgommes." alt="" coords="5,5,48,32"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a2cbca65732eeaf492b6d53b0792a2bf6" title="vérifie si les deux positions sont identiques" alt="" coords="96,5,215,32"/>
+</map>

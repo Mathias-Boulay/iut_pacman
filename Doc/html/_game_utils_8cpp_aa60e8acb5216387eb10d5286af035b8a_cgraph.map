@@ -1,0 +1,7 @@
+<map id="MoveToPacMan" name="MoveToPacMan">
+<area shape="rect" id="node1" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="5,23,128,49"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="387,23,448,49"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="176,23,235,49"/>
+<area shape="rect" id="node5" href="$_game_utils_8cpp.html#a5f51b5583c5a19b2588898969569da6f" title="Retourne un entier prenant les valeurs &#45;1;0;1 en fonction du signe de l&#39;argument." alt="" coords="181,73,230,100"/>
+<area shape="rect" id="node4" href="$_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="283,73,339,100"/>
+</map>

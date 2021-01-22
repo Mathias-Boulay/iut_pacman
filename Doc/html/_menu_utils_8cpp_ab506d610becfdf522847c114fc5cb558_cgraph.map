@@ -1,0 +1,10 @@
+<map id="LeaderdoardMenu" name="LeaderdoardMenu">
+<area shape="rect" id="node1" title="Affiche les meilleurs scores." alt="" coords="5,81,144,108"/>
+<area shape="rect" id="node2" href="$_display_utils_8cpp.html#add3f9bdeb1b61704feeddfd22dcaefab" title="Nettoie l&#39;écran pour qu&#39;il n&#39;y ai plus rien sur l&#39;écran." alt="" coords="239,5,344,32"/>
+<area shape="rect" id="node3" href="$_menu_utils_8cpp.html#a024413c0eab737bb237131c17b94f351" title="Affiche le logo pacman." alt="" coords="207,56,376,83"/>
+<area shape="rect" id="node4" href="$_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="238,107,345,133"/>
+<area shape="rect" id="node6" href="$_input_utils_8cpp.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="192,157,391,184"/>
+<area shape="rect" id="node5" href="$_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="439,107,593,133"/>
+<area shape="rect" id="node7" href="$_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="641,183,761,209"/>
+<area shape="rect" id="node8" href="$_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="464,208,568,235"/>
+</map>

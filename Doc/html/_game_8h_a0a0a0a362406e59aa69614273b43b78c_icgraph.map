@@ -1,0 +1,6 @@
+<map id="ClassicGame" name="ClassicGame">
+<area shape="rect" id="node1" title="Joue une partie classique de pacman." alt="" coords="381,5,488,32"/>
+<area shape="rect" id="node2" href="$_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,5,333,32"/>
+<area shape="rect" id="node3" href="$_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,5,199,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

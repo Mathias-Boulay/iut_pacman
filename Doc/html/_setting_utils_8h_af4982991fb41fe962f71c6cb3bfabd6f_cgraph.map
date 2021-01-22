@@ -1,0 +1,4 @@
+<map id="LoadSettings" name="LoadSettings">
+<area shape="rect" id="node1" title="Charge les paramètres utilisateur." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node2" href="$_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="160,5,315,32"/>
+</map>

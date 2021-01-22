@@ -1,0 +1,16 @@
+<map id="ResetRawInput" name="ResetRawInput">
+<area shape="rect" id="node1" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="1084,157,1204,184"/>
+<area shape="rect" id="node2" href="$_input_utils_8h.html#a4459cea9628aefef79c130a4d0e646a2" title="Donne la première touche du clavier pressée imprimable dans une console." alt="" coords="710,107,859,133"/>
+<area shape="rect" id="node7" href="$_input_utils_8h.html#a0c47f99934acf6ee7daaca7552850029" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="685,208,884,235"/>
+<area shape="rect" id="node14" href="$_input_utils_8h.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="932,157,1036,184"/>
+<area shape="rect" id="node3" href="$_menu_utils_8h.html#aa058987917cb72df98b7a4edb64a4932" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="472,5,635,32"/>
+<area shape="rect" id="node4" href="$_menu_utils_8h.html#afd708bb8c83ed223ced37d695b4cc400" title="Affiche les paramètres et réagit en fonction de ce qui est demandé par l&#39;utilisateur." alt="" coords="282,81,386,108"/>
+<area shape="rect" id="node5" href="$_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,259,199,285"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,259,60,285"/>
+<area shape="rect" id="node8" href="$_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="500,208,607,235"/>
+<area shape="rect" id="node9" href="$_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="291,259,377,285"/>
+<area shape="rect" id="node10" href="$_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="500,309,607,336"/>
+<area shape="rect" id="node11" href="$_menu_utils_8h.html#ab506d610becfdf522847c114fc5cb558" title="Affiche les meilleurs scores." alt="" coords="265,335,403,361"/>
+<area shape="rect" id="node12" href="$_menu_utils_8h.html#a9ee58b7523876d14d08f7250c55a7e66" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="469,107,637,133"/>
+<area shape="rect" id="node13" href="$_menu_utils_8h.html#ac7c2635834f8bea510b331befe7f88b5" title="Permet à l&#39;utilisateur de séléctionner son mode de jeu favori." alt="" coords="247,397,421,424"/>
+</map>

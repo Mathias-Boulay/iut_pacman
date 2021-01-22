@@ -1,0 +1,5 @@
+<map id="ReadSpecificKeyboardInput" name="ReadSpecificKeyboardInput">
+<area shape="rect" id="node1" title="Donne la première touche de clavier pressée qui est dans l&#39;ensemble passé en argument." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="404,5,524,32"/>
+<area shape="rect" id="node3" href="$_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="252,31,356,57"/>
+</map>

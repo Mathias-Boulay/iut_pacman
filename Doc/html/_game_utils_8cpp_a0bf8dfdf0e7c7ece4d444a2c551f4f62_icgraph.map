@@ -1,0 +1,16 @@
+<map id="isWall" name="isWall">
+<area shape="rect" id="node1" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="992,132,1053,159"/>
+<area shape="rect" id="node2" href="$_game_utils_8h.html#a9ffec93151e98674b15248aa1d9c39ed" title="Intelligence Artificielle du fantôme Clyde : Il fuit dès que Pacman s&#39;approche et prend des direction..." alt="" coords="566,31,629,57"/>
+<area shape="rect" id="node8" href="$_game_utils_8h.html#acf528ac3460b215bdeeb93a06df89f65" title="Renvoie la direction opposée à pacman." alt="" coords="707,31,805,57"/>
+<area shape="rect" id="node9" href="$_game_utils_8h.html#a7a48b49e4c6417230c7fee31470decb3" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="553,233,642,260"/>
+<area shape="rect" id="node10" href="$_game_utils_8h.html#a2cc1da30c3bc332e1a495b9ae31fdd67" title="Renvoie vrai si l&#39;entité est dans un cul de sac." alt="" coords="853,81,944,108"/>
+<area shape="rect" id="node11" href="$_game_utils_8h.html#a0b312ea5a70c9d68c0e0c0f4f3e52f61" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="727,157,785,184"/>
+<area shape="rect" id="node13" href="$_game_utils_8h.html#aa60e8acb5216387eb10d5286af035b8a" title="Fonction permettant à un fantôme de suivre Pacman en fonction de sa position par rapport à celle de P..." alt="" coords="536,284,659,311"/>
+<area shape="rect" id="node14" href="$_game_utils_8h.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="871,132,927,159"/>
+<area shape="rect" id="node3" href="$_game_8h.html#a0a0a0a362406e59aa69614273b43b78c" title="Joue une partie classique de pacman." alt="" coords="381,132,488,159"/>
+<area shape="rect" id="node7" href="$_game_8h.html#ae5760e8c1ab07704e48694e8a73fd1b9" title=" " alt="" coords="381,183,488,209"/>
+<area shape="rect" id="node4" href="$_menu_utils_8h.html#a559db83f58975f2d0f1183369191b8a3" title="Affiche des instructions liées au mode de jeu séléctionné et propose de lancer le jeu." alt="" coords="247,157,333,184"/>
+<area shape="rect" id="node5" href="$_menu_utils_8h.html#ab98dbf196398d8aeaa4ac97f87ae54a1" title="Affiche le menu principal, et appel les sous menus si demandé par l&#39;utilisateur." alt="" coords="108,157,199,184"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,157,60,184"/>
+<area shape="rect" id="node12" href="$_game_utils_8h.html#a1fd9618fef044e1c7111f226491fe158" title="IA par défaut pour les fantômes qui se trouvent dans leur cage d&#39;apparition. Aide les fantômes à sort..." alt="" coords="563,132,631,159"/>
+</map>

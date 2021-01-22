@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentation Pacman M1103:  Fichier source de Nos_Fichiers/source/DisplayUtils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Documentation Pacman M1103
+   &#160;<span id="projectnumber">1.01</span>
+   </div>
+   <div id="projectbrief">Documentation à propos de notre pacman réalisé dans le cadre du module m1103</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_f4a5ed3d1e5fd8b4194045c6d287b1d7.html">Nos_Fichiers</a></li><li class="navelem"><a class="el" href="dir_82af91f236c8293dc7e47709fbe080e9.html">source</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">DisplayUtils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_display_utils_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DISPLAYUTILS_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DISPLAYUTILS_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">types.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_display_utils_8h.html#add3f9bdeb1b61704feeddfd22dcaefab">ClearDisplay</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_display_utils_8h.html#a9b49deafbe8e28648219c632451b3f42">DisplayGameMap</a>(<span class="keyword">const</span> <a class="code" href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a> &amp;Map,<span class="keyword">const</span> <a class="code" href="struct_pacman.html">Pacman</a> &amp;<a class="code" href="struct_pacman.html">Pacman</a>,<span class="keyword">const</span> <a class="code" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a> &amp;<a class="code" href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_display_utils_8h.html#ab6e53ea0ac30cc3e7c614ca6b5180e9e">DisplayLevelHeader</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> &amp;Score,<span class="keyword">const</span> <span class="keywordtype">unsigned</span> &amp;Lives,<span class="keyword">const</span> <span class="keywordtype">unsigned</span> &amp;HighScore);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif // DISPLAYUTILS_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="atypes_8h_html_a9d35f67a5c5fe9668f4b812761b1e729"><div class="ttname"><a href="types_8h.html#a9d35f67a5c5fe9668f4b812761b1e729">Ghosts</a></div><div class="ttdeci">std::vector&lt; Ghost &gt; Ghosts</div><div class="ttdoc">alias pour plusieurs fantômes</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00121">types.h:121</a></div></div>
+<div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div><div class="ttdoc">Un ensemble de types facilitant la création du jeu.</div></div>
+<div class="ttc" id="a_display_utils_8h_html_add3f9bdeb1b61704feeddfd22dcaefab"><div class="ttname"><a href="_display_utils_8h.html#add3f9bdeb1b61704feeddfd22dcaefab">ClearDisplay</a></div><div class="ttdeci">void ClearDisplay()</div><div class="ttdoc">Nettoie l'écran pour qu'il n'y ai plus rien sur l'écran.</div><div class="ttdef"><b>Definition:</b> <a href="_display_utils_8cpp_source.html#l00011">DisplayUtils.cpp:11</a></div></div>
+<div class="ttc" id="a_display_utils_8h_html_a9b49deafbe8e28648219c632451b3f42"><div class="ttname"><a href="_display_utils_8h.html#a9b49deafbe8e28648219c632451b3f42">DisplayGameMap</a></div><div class="ttdeci">void DisplayGameMap(const GameMap &amp;Map, const Pacman &amp;Pacman, const Ghosts &amp;Ghosts)</div><div class="ttdoc">Affiche le terrain utilisé. Gère aussi les couleurs via une table de correspondance.</div><div class="ttdef"><b>Definition:</b> <a href="_display_utils_8cpp_source.html#l00015">DisplayUtils.cpp:15</a></div></div>
+<div class="ttc" id="atypes_8h_html_a20b9f47c37fdbb5aa01f951c65a75cd0"><div class="ttname"><a href="types_8h.html#a20b9f47c37fdbb5aa01f951c65a75cd0">GameMap</a></div><div class="ttdeci">std::vector&lt; MapLine &gt; GameMap</div><div class="ttdoc">GameMap : alias pour une matrice de MapCase.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00043">types.h:43</a></div></div>
+<div class="ttc" id="astruct_pacman_html"><div class="ttname"><a href="struct_pacman.html">Pacman</a></div><div class="ttdoc">Struct contenant des éléments pour pacman.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00086">types.h:86</a></div></div>
+<div class="ttc" id="a_display_utils_8h_html_ab6e53ea0ac30cc3e7c614ca6b5180e9e"><div class="ttname"><a href="_display_utils_8h.html#ab6e53ea0ac30cc3e7c614ca6b5180e9e">DisplayLevelHeader</a></div><div class="ttdeci">void DisplayLevelHeader(const unsigned &amp;Score, const unsigned &amp;Lives, const unsigned &amp;HighScore)</div><div class="ttdoc">Affiche le score, le highscore ainsi que les vies restantes.</div><div class="ttdef"><b>Definition:</b> <a href="_display_utils_8cpp_source.html#l00043">DisplayUtils.cpp:43</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

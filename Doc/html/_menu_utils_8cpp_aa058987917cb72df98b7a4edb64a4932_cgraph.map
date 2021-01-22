@@ -1,0 +1,9 @@
+<map id="ChangeBindingsMenu" name="ChangeBindingsMenu">
+<area shape="rect" id="node1" title="Permet de re&#45;initialiser les tableaux de scores." alt="" coords="5,56,168,83"/>
+<area shape="rect" id="node2" href="$_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="235,5,347,32"/>
+<area shape="rect" id="node3" href="$_setting_utils_8cpp.html#af4982991fb41fe962f71c6cb3bfabd6f" title="Charge les paramètres utilisateur." alt="" coords="237,56,344,83"/>
+<area shape="rect" id="node5" href="$_input_utils_8cpp.html#a4459cea9628aefef79c130a4d0e646a2" title="Donne la première touche du clavier pressée imprimable dans une console." alt="" coords="216,107,365,133"/>
+<area shape="rect" id="node4" href="$_setting_utils_8cpp.html#a02a550caf65a7ddb97f13b2500ef78a7" title="Charge les paramètres par défaut. Renvoie les paramètres." alt="" coords="413,56,568,83"/>
+<area shape="rect" id="node6" href="$_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="616,132,736,159"/>
+<area shape="rect" id="node7" href="$_input_utils_8cpp.html#af6a7b9cd7b8996052cdccc6895bf9dd2" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="439,157,543,184"/>
+</map>

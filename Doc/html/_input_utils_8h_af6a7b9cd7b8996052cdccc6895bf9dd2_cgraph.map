@@ -1,0 +1,4 @@
+<map id="SetRawInput" name="SetRawInput">
+<area shape="rect" id="node1" title="Change la console dans un mode non&#45;buffurisé. Permet la capture touche par touche." alt="" coords="5,5,109,32"/>
+<area shape="rect" id="node2" href="$_input_utils_8cpp.html#af76480969ca72d9e22d825c131e498c5" title="Ré&#45;initialise le terminal à son mode normal." alt="" coords="157,5,277,32"/>
+</map>

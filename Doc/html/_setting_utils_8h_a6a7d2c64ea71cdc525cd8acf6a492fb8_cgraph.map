@@ -1,0 +1,4 @@
+<map id="InsertHighScore" name="InsertHighScore">
+<area shape="rect" id="node1" title="Stocke le score si il est assez bon." alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node2" href="$_setting_utils_8cpp.html#a9a029586138d403ace7b3bf2c05e6682" title="Applique les paramètres utilisateur." alt="" coords="179,5,291,32"/>
+</map>

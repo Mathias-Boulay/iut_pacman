@@ -1,0 +1,6 @@
+<map id="IARandom" name="IARandom">
+<area shape="rect" id="node1" title="Intelligence artificielle d&#39;un fantôme qui change aléatoirement de direction lorsque l&#39;occasion est p..." alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node2" href="$_game_utils_8cpp.html#a0bf8dfdf0e7c7ece4d444a2c551f4f62" title="vérifie la présence d&#39;un mur à la case spécifié" alt="" coords="353,31,415,57"/>
+<area shape="rect" id="node3" href="$_game_utils_8cpp.html#a6fe2a29e6d7e30dba20828fa048abdbe" title="Déplace l&#39;entité dans la direction donnée, si il n&#39;y a pas de mur. La valeur renvoyé exprime la réuss..." alt="" coords="143,31,201,57"/>
+<area shape="rect" id="node4" href="$_game_utils_8cpp.html#ab47c6232a2514e8469c831f3f5e852de" title="Gère le positionnement quand une entité prend un tunnel." alt="" coords="249,81,305,108"/>
+</map>
