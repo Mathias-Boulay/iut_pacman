@@ -10,6 +10,11 @@ Due to the constraints of the project, all generated documentation is in French,
 - Leaderboard system
 - Changeable controls
 - Might be playable over SSH terminal.
+- Input buffering   &sup1;
+- Elegant input system.  &sup1;
+
+  
+&sup1; Only since the Day 1 patch.
 
 
 ## Config files
