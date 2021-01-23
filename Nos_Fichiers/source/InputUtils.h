@@ -27,25 +27,28 @@ void ResetRawInput();
 
 /**
  * @brief Change la console dans un mode non-buffurisé. Permet la capture touche par touche.
+ * @param[in] TimePressure Le temps (en ds) avant que le char par défaut '\0' soit renvoyé
  * @fn void SetRawInput();
  * @return void
  */
-void SetRawInput();
+void SetRawInput(const unsigned TimePressure = 0);
 
 /**
  * @brief Donne la première touche du clavier pressée imprimable dans une console.
+ * @param[in] TimePressure Le temps (en ds) avant que le char par défaut '\0' soit renvoyé
  * @fn char ReadKeyboardInput();
  * @return char
  */
-char ReadKeyboardInput();
+char ReadKeyboardInput(const unsigned TimePressure = 0);
 
 /**
  * @brief Donne la première touche de clavier pressée qui est dans l'ensemble passé en argument.
  * @param[in] Keys Liste de touches considérées valides
+ * @param[in] TimePressure Le temps (en ds) avant que le char par défaut '\0' soit renvoyé. Le char nul est renvoyé uniquement si ce paramètre est différent de 0;
  * @fn char ReadSpecificKeyboardInput(const std::vector<char> Keys);
  * @returns char
  */
-char ReadSpecificKeyboardInput(const std::vector<char> Keys);
+char ReadSpecificKeyboardInput(std::vector<char> Keys, const unsigned TimePressure = 0);
 
 
 

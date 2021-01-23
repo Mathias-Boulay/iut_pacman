@@ -7,7 +7,7 @@ void ResetRawInput(){
     tcsetattr (STDIN_FILENO, TCSANOW, &saved_attributes);
 }
 
-void SetRawInput(){
+void SetRawInput(const unsigned TimePressure){
     struct termios tattr;
 
     /* Make sure stdin is a terminal. */
@@ -23,28 +23,30 @@ void SetRawInput(){
     /* Set the funny terminal modes. */
     tcgetattr (STDIN_FILENO, &tattr);
     tattr.c_lflag &= ~(ICANON|ECHO); /* Clear ICANON and ECHO. */
-    tattr.c_cc[VMIN] = 1;
-    tattr.c_cc[VTIME] = 0;
+    tattr.c_cc[VMIN] = TimePressure == 0 ? 1 : 0; //No inputs can be sent during a specific time frame
+    tattr.c_cc[VTIME] = TimePressure; //0 represents no pressure.
     tcsetattr (STDIN_FILENO, TCSAFLUSH, &tattr);
 }
 
-char ReadKeyboardInput(){
+char ReadKeyboardInput(const unsigned TimePressure){
     char input;
 
-    SetRawInput();
+    SetRawInput(TimePressure);
     while(true){
         read(STDIN_FILENO, &input, 1);
-        if(isprint(input)){
+        if(isprint(input) || input == '\0'){
             ResetRawInput();
             return input;
         }
     }
 }
 
-char ReadSpecificKeyboardInput(const std::vector<char> Keys){
+char ReadSpecificKeyboardInput(std::vector<char> Keys,  const unsigned TimePressure){
     char input;
 
-    SetRawInput();
+    if(TimePressure != 0) Keys.push_back('\0');
+
+    SetRawInput(TimePressure);
     while (true) {
          read(STDIN_FILENO, &input, 1);
          for(const char &validInput : Keys){
